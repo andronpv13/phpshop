@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Админ-панель | PHPShop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background:#f3f4f6;">
+  <div class="admin-layout">
+    <aside class="sidebar">
+      <h3 style="margin-bottom:20px;">⚙️ PHPShop Admin</h3>
+      <a href="#" class="active">📊 Дашборд</a>
+      <a href="#">📦 Товары</a>
+      <a href="#">📥 Заказы</a>
+      <a href="#">👥 Клиенты</a>
+      <a href="#">💳 Оплата / Доставка</a>
+      <a href="#">🎨 Шаблоны</a>
+      <a href="#">📜 Логи</a>
+      <a href="index.html" style="margin-top:20px; color:#9ca3af;">← На сайт</a>
+    </aside>
+    <main class="admin-main">
+      <h1 style="margin-bottom:20px;">Панель управления</h1>
+      <div class="stats">
+        <div class="stat-card"><h3>Заказы сегодня</h3><div class="value">12</div></div>
+        <div class="stat-card"><h3>Выручка</h3><div class="value">48 900 ₽</div></div>
+        <div class="stat-card"><h3>Товаров в каталоге</h3><div class="value">143</div></div>
+        <div class="stat-card"><h3>Новые клиенты</h3><div class="value">7</div></div>
+      </div>
+      <h2 style="margin-bottom:12px;">Последние заказы</h2>
+      <table class="table">
+        <thead><tr><th>ID</th><th>Покупатель</th><th>Сумма</th><th>Статус</th><th>Действие</th></tr></thead>
+        <tbody>
+          <tr><td>#4092</td><td>Алексей М.</td><td>24 990 ₽</td><td><span style="color:#f59e0b">⏳ В обработке</span></td><td><button class="btn-secondary">Открыть</button></td></tr>
+          <tr><td>#4091</td><td>Мария С.</td><td>5 200 ₽</td><td><span style="color:#16a34a">✅ Доставлен</span></td><td><button class="btn-secondary">Открыть</button></td></tr>
+          <tr><td>#4090</td><td>Иван П.</td><td>18 900 ₽</td><td><span style="color:#3b82f6">🚚 В пути</span></td><td><button class="btn-secondary">Открыть</button></td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:20px; color:var(--text-muted); font-size:0.9rem;">🔒 Фаза 3: Безопасность - В продакшене админка защищена по IP + CSRF + сессии</p>
+    </main>
+  </div>
+</body>
+</html>

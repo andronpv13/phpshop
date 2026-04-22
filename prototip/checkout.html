@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Оформление заказа | PHPShop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header><div class="container header-inner">
+    <a href="index.html" class="logo">🛒 PHPShop 6.6.5</a>
+    <nav class="nav"><a href="cart.html">← Вернуться в корзину</a></nav>
+  </div></header>
+  <main class="container" style="max-width:800px; margin:32px auto;">
+    <h1 style="margin-bottom:24px;">Оформление заказа</h1>
+    <form id="checkout-form" style="display:grid; gap:20px; grid-template-columns:1fr 300px;">
+      <div>
+        <div class="form-group"><label>Имя и фамилия</label><input type="text" required placeholder="Иван Петров"></div>
+        <div class="form-group"><label>Телефон</label><input type="tel" required placeholder="+7 (999) 000-00-00"></div>
+        <div class="form-group"><label>Email</label><input type="email" required placeholder="you@example.com"></div>
+        <div class="form-group"><label>Город и адрес доставки</label><textarea rows="3" required placeholder="г. Москва, ул. Примерная, д. 10, кв. 5"></textarea></div>
+        <div class="form-group"><label>Комментарий к заказу</label><textarea rows="2" placeholder="Оставьте примечания для курьера"></textarea></div>
+      </div>
+      <div>
+        <div class="cart-summary">
+          <h3 style="margin-bottom:12px;">Ваш заказ</h3>
+          <div class="row"><span>Доставка</span><span>300 ₽</span></div>
+          <div class="row"><span>Оплата</span><span>Картой онлайн</span></div>
+          <button type="submit" class="btn btn-success" style="margin-top:12px;">Подтвердить заказ</button>
+        </div>
+      </div>
+    </form>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>

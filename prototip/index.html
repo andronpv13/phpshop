@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PHPShop Prototype | Каталог</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header><div class="container header-inner">
+    <a href="index.html" class="logo">🛒 PHPShop 6.6.5</a>
+    <nav class="nav"><a href="index.html">Каталог</a><a href="product.html?id=101">Товар</a><a href="cart.html">Корзина</a><a href="admin.html">Админка</a></nav>
+    <a href="cart.html" class="cart-btn">🛒 Корзина <span id="cart-count"></span></a>
+  </div></header>
+  <main class="container">
+    <section style="text-align:center; padding:40px 0;"><h1>Интернет-магазин прототип</h1><p style="color:var(--text-muted)">Создан согласно документации по фазам выполнения</p></section>
+    <h2 style="margin:24px 0 12px;">Популярные товары</h2>
+    <div class="grid" id="products-grid"></div>
+  </main>
+  <footer><div class="container footer-inner">
+    <div><h4>Магазин</h4><ul><li><a href="#">О нас</a></li><li><a href="#">Доставка</a></li><li><a href="#">Гарантия</a></li></ul></div>
+    <div><h4>Помощь</h4><ul><li><a href="#">FAQ</a></li><li><a href="#">Контакты</a></li><li><a href="#">Возврат</a></li></ul></div>
+    <div><h4>Контакты</h4><p>support@phpshop.local<br>+7 (999) 123-45-67</p></div>
+  </div><div class="container footer-bottom">© 2026 PHPShop Prototype. Фаза 4: Разработка</div></footer>
+  <script>
+    const products = [
+      { id: '101', name: 'Смартфон Alpha X', price: 24990 },
+      { id: '102', name: 'Ноутбук ProBook 15', price: 58900 },
+      { id: '103', name: 'Наушники SoundMax', price: 4500 },
+      { id: '104', name: 'Планшет TabLite 8', price: 18900 }
+    ];
+    document.addEventListener('DOMContentLoaded', () => {
+      const grid = document.getElementById('products-grid');
+      products.forEach(p => { grid.innerHTML += `<div class="card"><div class="card-img">📷 Изображение ${p.id}</div><div class="card-body"><div class="card-title">${p.name}</div><div class="card-price">${p.price.toLocaleString()} ₽</div><button class="btn" data-add-to-cart data-id="${p.id}" data-name="${p.name}" data-price="${p.price}">В корзину</button></div></div>`; });
+    });
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>
