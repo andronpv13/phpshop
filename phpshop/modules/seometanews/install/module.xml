@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.1</version>
+    <name>Seometa Новости</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/seo/seo-meta-novosti</faqlink>
+    <description>Модуль ручной установки title,keywords и description для новостей.</description>
+    <category>seo</category>
+    <site>true</site>
+    <adminmenu>
+        <title>Seometa Новости</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.2</version>
+    <name>Debug</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/razrabotchikam/debug</faqlink>
+    <description>Отладочный модуль для разработчиков.</description>
+    <category>develop</category>
+    <site>true</site>
+    <adminmenu>
+        <title>Debug</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

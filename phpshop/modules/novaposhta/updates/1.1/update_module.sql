@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_modules_novaposhta_system` ADD `pvz_ref` varchar(255) default '';

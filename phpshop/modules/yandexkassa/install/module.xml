@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.9</version>
+    <name>ЮKassa</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/yookassa</faqlink>
+    <description>Прием оплат через ЮKassa в соответствии с 54-ФЗ.</description>
+    <category>payment</category>
+    <status>Hit</status>
+    <sign>1768549611</sign>
+    <adminmenu>
+        <title>ЮKassa</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.yandexkassa</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

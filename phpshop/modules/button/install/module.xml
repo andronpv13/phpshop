@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.1</version>
+    <name>Кнопки</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/dizain/button</faqlink>
+    <description>Модуль вставки кода кнопок рейтингов и счетчиков.</description>
+    <category>text,template</category>
+    <site>true</site>
+    <adminmenu>
+        <title>Кнопки</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Обзор</podmenu_name>
+            <podmenu_action>dir.button</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Новая Кнопка</podmenu_name>
+            <podmenu_action>dir.button&amp;action=new</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

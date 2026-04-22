@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.2</version>
+    <name>Рекламные кампании</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/crm/adanalyzer</faqlink>
+    <description>Модуль статистики по рекламным кампаниям через UTM-метки.</description>
+    <category>crm,pro</category>
+    <pro>true</pro>
+    <sign>1613634149</sign>
+    <adminmenu>
+        <title>Рекламные кампании</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Обзор</podmenu_name>
+            <podmenu_action>dir.adanalyzer</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Новая Кампания</podmenu_name>
+            <podmenu_action>dir.adanalyzer&amp;action=new</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Отчеты по кампаниям</podmenu_name>
+            <podmenu_action>dir.adanalyzer.stat</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

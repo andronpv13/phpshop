@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Sort Product</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/prodazhi/sort-product</faqlink>
+    <description>Элемент вывода товаров по характеристикам.</description>
+    <category>sale</category>
+    <catalog>true</catalog>
+    <adminmenu>
+        <title>Sort Product</title>
+        <capability>true</capability>
+         <podmenu>
+            <podmenu_name>Обзор элементов</podmenu_name>
+            <podmenu_action>dir.sortproduct</podmenu_action>
+        </podmenu>
+         <podmenu>
+            <podmenu_name>Новый  элемент</podmenu_name>
+            <podmenu_action>dir.sortproduct&amp;action=new</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

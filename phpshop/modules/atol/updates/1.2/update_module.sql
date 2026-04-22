@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_modules_atol_system` ADD `manual_control` enum('0','1') NOT NULL default '0';

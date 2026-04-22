@@ -1,0 +1,1 @@
+{Вы должны} <a href='javascript:void(0)' onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'" title='авторизоваться'>{авторизоваться}</a> {или} <a href='@ShopDir@/users/register.html' title='зарегистрироваться'>{зарегистрироваться}</a> {чтобы отложить} <a href='@ShopDir@/shop/UID_@prodId@.html'>@prodName@</a>

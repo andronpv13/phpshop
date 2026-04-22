@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Slider Filter</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/prodazhi/slider-filter</faqlink>
+    <description>Подбор товаров по параметрам в виде слайдера.</description>
+    <category>sale</category>
+    <catalog>true</catalog>
+    <sign>1755253981</sign>
+    <adminmenu>
+        <title>Slider Filter</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

@@ -1,0 +1,1 @@
+<a href="#" data-toggle="modal" data-target="#userModal" class="user-text">{Авторизуйтесь}</a>, {если Вы уже указывали адрес доставки, и не желаете вводить его повторно.}<br><br>

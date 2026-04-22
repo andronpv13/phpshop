@@ -1,0 +1,4 @@
+Options +FollowSymLinks 
+RewriteEngine on 
+RedirectMatch Permanent 1/forma.html$ /phpshop/forms/account/forma.html
+RedirectMatch Permanent 2/forma.html$ /phpshop/forms/receipt/forma.html

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Verbox</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/chaty-i-zvonki/verbox</faqlink>
+    <description>Виджет онлайн консультанта для сайта Verbox.</description>
+    <category>chat</category>
+    <site>true</site>
+    <adminmenu>
+        <title>Verbox</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

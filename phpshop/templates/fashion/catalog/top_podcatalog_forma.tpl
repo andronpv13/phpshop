@@ -1,0 +1,1 @@
+<a class="dropdown-item" href="/shop/CID_@catalogUid@.html">@catalogName@</a>

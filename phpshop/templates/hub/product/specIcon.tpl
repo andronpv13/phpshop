@@ -1,0 +1,1 @@
+<span class="sale-label">SALE</span>

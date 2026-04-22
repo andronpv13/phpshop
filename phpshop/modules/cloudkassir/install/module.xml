@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.1</version>
+    <name>Онлайн-касса CloudKassir</name>
+    <description>Модуль онлайн-кассы CloudKassir.</description>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/cloudkassir</faqlink>
+    <category>payment</category>
+    <sign>1545904926</sign>
+    <adminmenu>
+        <title>Онлайн-касса CloudKassir</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.cloudkassir</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

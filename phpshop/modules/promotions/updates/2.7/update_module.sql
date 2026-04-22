@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_modules_promotions_forms` ADD `hide_old_price` enum('0','1') DEFAULT '0';

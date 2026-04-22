@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.2</version>
+    <name>Онлайн касса Атол</name>
+    <description>Модуль онлайн кассы Атол.</description>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/atol-onlain</faqlink>
+    <category>payment</category>
+    <sign>1613127188</sign>
+    <adminmenu>
+        <title>Онлайн касса Атол</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.atol</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

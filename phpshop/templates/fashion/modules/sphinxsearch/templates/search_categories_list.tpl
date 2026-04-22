@@ -1,0 +1,1 @@
+<li><a href="@sphinxsearch_category_url@">@sphinxsearch_category_title@ (@sphinxsearch_category_count@)</a></li>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>DeltaKey</name>
+    <description>Прием оплат через DeltaKey.</description>
+    <category>payment</category>
+    <adminmenu>
+        <title>Прием оплат через DeltaKey</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

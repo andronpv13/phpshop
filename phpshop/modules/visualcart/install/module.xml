@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>2.5</version>
+    <name>Visual Cart</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/prodazhi/visual-cart</faqlink>
+    <description>Модуль управляемой мини-корзины, сохранение корзины в базе.</description>
+    <category>sale</category>
+    <sign>1612250835</sign>
+    <adminmenu>
+        <title>Visual Cart</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Брошенные корзины</podmenu_name>
+            <podmenu_action>dir.visualcart</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Журнал корзины</podmenu_name>
+            <podmenu_action>dir.visualcart.log</podmenu_action>
+        </podmenu>
+        <notification>true</notification>
+    </adminmenu>
+</module>

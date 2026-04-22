@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Долями</name>
+    <description>Покупка в рассрочку Долями.</description>
+    <category>credit</category>
+    <sign>1713776737</sign>
+    <faqlink>https://wiki.phpshop.ru/moduli/kreditovanie/dolyame</faqlink>
+    <adminmenu>
+        <title>Долями</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.dolyame</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

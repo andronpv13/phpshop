@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>2.1</version>
+    <name>Задачи</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/razrabotchikam/cron</faqlink>
+    <description>Модуль запуска задач по времени.</description>
+    <category>develop</category>
+    <site>true</site>
+    <adminmenu>
+        <title>Задачи</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Обзор Задач</podmenu_name>
+            <podmenu_action>dir.cron</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Новая Задача</podmenu_name>
+            <podmenu_action>dir.cron&amp;action=new</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Журнал выполнения</podmenu_name>
+            <podmenu_action>dir.cron.log</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

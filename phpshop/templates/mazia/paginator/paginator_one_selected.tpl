@@ -1,0 +1,1 @@
+<li id="paginator-@paginPageNumber@" class="page-item active"><a class="page-link" href="@paginLink@">@paginPageNumber@</a></li>

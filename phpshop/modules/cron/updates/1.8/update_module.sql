@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_modules_cron_job` CHANGE `execute_day_num` `execute_day_num` INT(11) NOT NULL DEFAULT '0';

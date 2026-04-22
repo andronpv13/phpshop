@@ -1,0 +1,42 @@
+.product-services-list {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.product-services-list ul {
+    padding-left: 0!important;
+}
+.product-services-list input[type="checkbox"]:checked {
+    border: 1px solid var(--color);
+    background-color: var(--color);
+}
+.product-services-list input[type="checkbox"]:checked {
+    background-image: url(../images/check.svg);
+    background-size: auto;
+}
+.product-services-list input[type="checkbox"] {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    display: block;
+    color: #fff;
+    background-color: #fff;
+    margin-top: 2px;
+    outline: none;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    border: 1px solid #dfe0e1;
+    top: 1px;
+    float: left;
+    margin-right: 10px;
+}
+.product-services-list input, #forma_order textarea {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-size: 13px;
+}
+.product-services-list label {
+    font-size: 15px;
+    font-weight: normal;
+}

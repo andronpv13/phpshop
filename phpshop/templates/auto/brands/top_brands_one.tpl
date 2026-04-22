@@ -1,0 +1,1 @@
+<a class="dropdown-item" href="@brandPageLink@"><img class="max-w-11rem max-w-md-13rem mx-auto @php __hide('brandIcon'); php@" src="@brandIcon@" alt="@brandName@"><span class="@php __hide('brandIcon','isset'); php@">@brandName@</span></a>

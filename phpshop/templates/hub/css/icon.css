@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "main-icon";
+  src:url("../fonts/main-icon.eot");
+  src:url("../fonts/main-icon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/main-icon.woff") format("woff"),
+    url("../fonts/main-icon.ttf") format("truetype"),
+    url("../fonts/main-icon.svg#main-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "main-icon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="iconz-"]:before,
+[class*=" iconz-"]:before {
+  font-family: "main-icon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconz-bag:before {
+  content: "\61";
+}
+.iconz-cart:before {
+  content: "\62";
+}
+.iconz-coin:before {
+  content: "\63";
+}
+.iconz-expand:before {
+  content: "\64";
+}
+.iconz-headphones:before {
+  content: "\65";
+}
+.iconz-heart:before {
+  content: "\66";
+}
+.iconz-profile:before {
+  content: "\67";
+}
+.iconz-search:before {
+  content: "\68";
+}
+.iconz-telephone:before {
+  content: "\69";
+}
+.iconz-truck:before {
+  content: "\6a";
+}
+.iconz-secure-shield:before {
+  content: "\6b";
+}
+.iconz-close:before {
+  content: "\6c";
+}
+.iconz-administrator:before {
+  content: "\6d";
+}
+.iconz-email:before {
+  content: "\6e";
+}
+.iconz-envelope:before {
+  content: "\6f";
+}
+.iconz-letter:before {
+  content: "\70";
+}
+.iconz-telemarketer-1:before {
+  content: "\71";
+}
+.iconz-telemarketer-2:before {
+  content: "\72";
+}
+.iconz-mail:before {
+  content: "\73";
+}
+.iconz-map:before {
+  content: "\74";
+}
+.iconz-map-1:before {
+  content: "\75";
+}
+.iconz-map-2:before {
+  content: "\76";
+}
+.iconz-map-3:before {
+  content: "\77";
+}
+.iconz-placeholder:before {
+  content: "\78";
+}
+.iconz-street-map:before {
+  content: "\79";
+}
+.iconz-support:before {
+  content: "\7a";
+}
+.iconz-telemarketer:before {
+  content: "\41";
+}
+.iconz-marker:before {
+  content: "\42";
+}

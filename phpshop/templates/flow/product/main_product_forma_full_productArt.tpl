@@ -1,0 +1,1 @@
+<span class="text-muted small mr-1">{Àðò}</span> <span class="text-muted small" itemprop="sku">@productArt@</span> 

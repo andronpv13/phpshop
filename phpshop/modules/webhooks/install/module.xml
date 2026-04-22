@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>WebHooks</name>
+    <description>Модуль интеграции с облачными сервисами с помощью WebHooks.</description>
+    <faqlink>https://wiki.phpshop.ru/moduli/razrabotchikam/webhooks</faqlink>
+    <sign>1600408414</sign>
+    <pro>true</pro>
+    <category>develop,pro</category>
+    <catalog>true</catalog>
+     <adminmenu>
+        <title>WebHooks</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Обзор WebHooks</podmenu_name>
+            <podmenu_action>dir.webhooks</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Новый WebHook</podmenu_name>
+            <podmenu_action>dir.webhooks&amp;action=new</podmenu_action>
+        </podmenu>
+         <podmenu>
+             <podmenu_name>Журнал операций</podmenu_name>
+             <podmenu_action>dir.webhooks.log</podmenu_action>
+         </podmenu>
+    </adminmenu>
+</module>

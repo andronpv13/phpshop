@@ -1,0 +1,70 @@
+.pbkredit-modal {
+
+}
+#pbkreditModal .close {
+    margin: 10px !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+#pbkreditModal .modal-body {
+    padding: 0!important;
+}
+#pbkredit-container .pb-sdk-pos-credit__cont {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+#pbkredit-container .pb-sdk-pos-credit__head__text {
+    text-transform: none!important;
+    padding-right: 10px;
+}
+
+@font-face {
+    font-family: 'icomoon2';
+    src: url('../fonts/icomoon/icomoon.ttf?t033av') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?t033av') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?t033av#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.icon {
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+.icon-bag {
+    font-family: 'icomoon2' !important
+}
+.icon-bag:before {
+    content: "\e910"
+}
+.pbkredit-init {
+    padding: 13px 17px;
+    line-height: 1;
+    border-radius: 5px;
+    background-color: #f8f9fb;
+    color: #454e84;
+    text-decoration: none;
+    position: relative;
+    margin-top: 8px;
+    max-width: 179px;
+    display: flex;
+    text-transform: none;
+}
+.pbkredit-init .icon {
+    font-size: 30px;
+    margin-right: 17px;
+    text-align: center;
+}
+.pbkredit-init:hover {
+    color: #fff;
+    background-color: #9ca3cc;
+}

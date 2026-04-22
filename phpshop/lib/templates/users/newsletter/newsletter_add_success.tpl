@@ -1,0 +1,1 @@
+<div class="mesagge-for-email">Email {успешно добавлен в рассылку}.</div>

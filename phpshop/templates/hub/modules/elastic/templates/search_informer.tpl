@@ -1,0 +1,3 @@
+<div class="elastic-search-result" style="padding-bottom: 20px; padding-top: 0; padding-right: 0; padding-left: 0">
+    {Найдено} @elastic_products_count@ {@php echo Elastic::getWordForm($GLOBALS['SysValue']['other']['elastic_products_count'], 'результат', 'результата', 'результатов'); php@ в} @elastic_categories_count@ {@php echo Elastic::getWordForm($GLOBALS['SysValue']['other']['elastic_categories_count'], 'категории', 'категориях', 'категориях'); php@}.
+</div>

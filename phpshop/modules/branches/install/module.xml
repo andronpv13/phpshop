@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.1</version>
+    <name>Пункты выдачи</name>
+    <description>Модуль вывода пунктов выдачи на отдельной странице.</description>
+    <faqlink>https://wiki.phpshop.ru/moduli/dostavka/branches</faqlink>
+    <category>delivery</category>
+    <sign>1698047467</sign>
+    <site>true</site>
+    <adminmenu>
+        <title>Пункты выдачи</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Пункты выдачи</podmenu_name>
+            <podmenu_action>dir.branches</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Добавить пункт</podmenu_name>
+            <podmenu_action>dir.branches&amp;action=new</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

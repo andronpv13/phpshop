@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>4.2</version>
+    <name>Яндекс.Маркет</name>
+    <description>Модуль продаж через Яндекс.Маркет.</description>
+    <faqlink>https://wiki.phpshop.ru/moduli/yandeks/yandex-cart</faqlink>
+    <category>yandex,pro,marketplaces</category>
+    <sign>1764078296</sign>
+    <pro>true</pro>
+    <adminmenu>
+        <title>Яндекс.Маркет</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Товары из Яндекс.Маркета</podmenu_name>
+            <podmenu_action>dir.yandexcart.import</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Заказы из Яндекс.Маркета</podmenu_name>
+            <podmenu_action>dir.yandexcart.orders</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.yandexcart</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

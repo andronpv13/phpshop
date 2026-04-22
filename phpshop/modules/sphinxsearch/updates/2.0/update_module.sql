@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_modules_sphinxsearch_system` ADD `ajax_search_categories_cnt` int(11) DEFAULT 5;

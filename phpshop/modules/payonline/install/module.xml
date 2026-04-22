@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.1</version>
+    <name>PayOnline</name>
+    <description>Прием оплат с помощью платежного шлюза PayOnline в соответствии с 54-ФЗ.</description>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/payonline</faqlink>
+    <category>payment</category>
+    <sign>1614343772</sign>
+     <adminmenu>
+        <title>PayOnline</title>
+        <capability>true</capability>
+         <podmenu>
+             <podmenu_name>Журнал операций</podmenu_name>
+             <podmenu_action>dir.payonline</podmenu_action>
+         </podmenu>
+    </adminmenu>
+</module>

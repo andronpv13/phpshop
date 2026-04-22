@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>2.3</version>
+    <name>Seourl</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/seo/seourl-pro</faqlink>
+    <description>Модуль SEO ссылок и редиректов</description>
+    <category>seo</category>
+    <sign>1755253981</sign>
+    <site>true</site>
+    <adminmenu>
+        <title>SeoUrl</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

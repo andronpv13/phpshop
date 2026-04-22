@@ -1,0 +1,569 @@
+body
+{
+  background: #fff;
+  color: #1a1a1a;
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+.clear
+{
+  clear: both;
+}
+a:link, a:visited
+{
+  color: #0050f3;
+}
+a:hover
+{
+  color: #ce0000;
+}
+p
+{
+  margin: 0px 0px 5px 0px;
+  padding: 0px;
+}
+#wrapper
+{
+  margin: 0px auto;
+  min-width: 600px;
+  width: 100%;
+}
+.wrapper_head
+{
+  margin: 0px auto;
+  max-width: 1150px;
+  padding: 30px 0px 30px 0px;
+}
+.wrapper_head .head
+{
+  margin: 0px auto;
+  width: 85%;
+}
+.wrapper_head .head #logo
+{
+  background: url('../img/pbrf_logo.png') no-repeat left top;
+  float: left;
+  margin: 0px 50px 0px 0px;
+  padding: 0px 0px 0px 130px;
+  width: 400px;
+}
+.wrapper_head .head #logo .pbrf_title
+{
+  font-size: 36px;
+  font-weight: bolder;
+}
+.wrapper_head .head #logo .pbrf_slogan
+{
+  font-size: 16px;
+}
+.wrapper_head .head .contacts
+{
+  float: right;
+  width: 150px;
+}
+.wrapper_head .head .contacts div
+{
+  margin: 15px 0px 0px 0px;
+}
+#v_menu
+{
+  float: right;
+  margin: 0px 30px 0px 0px;
+  width: 150px;
+}
+#v_menu ul
+{
+  list-style: none;
+  margin: 15px 0px 0px 0px;
+  padding: 0px;
+}
+#v_menu ul li
+{
+  padding: 2px 2px 2px 15px;
+}
+#v_menu ul li.active
+{
+  font-style: italic;
+  padding: 0px;
+}
+ul li.active .border_1
+{
+  background: url('../img/menu_active_1.gif') no-repeat left center;
+}
+ul li.active .border_2
+{
+  background: url('../img/menu_active_2.gif') no-repeat right center;
+  padding: 2px 10px 2px 10px;
+  text-align: center;
+}
+#h_menu
+{
+  display: none;
+}
+#h_menu ul
+{
+  list-style: none;
+  margin: 20px 0px 0px 0px;
+  padding: 0px;
+  text-align: center;
+}
+#h_menu ul li
+{
+  display: inline;
+  display: inline-block;
+  margin: 0px 5px 0px 5px;
+  padding: 2px;
+  zoom: 1;
+}
+.wrapper_blanks
+{
+  background: url('../img/bg_blanks_index.jpg') repeat-x #dce6f7 bottom;
+  margin: 0px auto;
+  max-width: 1150px;
+}
+.wrapper_blanks_inner
+{
+  background: url('../img/bg_blanks_inner.jpg') repeat-x #dce6f7 bottom;
+}
+.blanks_borders
+{
+  background: url('../img/borders.png') repeat-y center;
+  padding: 0 30px 0 30px;
+}
+.blanks_content
+{
+  margin: 0px auto;
+  padding: 30px 0 60px 0;
+  width: 100%;
+}
+.statistics
+{
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+.statistics span
+{
+  background-color: #faff0f;
+  font-size: 30px;
+  font-style: italic;
+  padding: 10px;
+}
+.blanks_sets
+{
+  text-align: center;
+}
+.blanks_options
+{
+  margin: 0 0 20px 0;
+}
+.blanks_options a:link, .blanks_options a:visited
+{
+  color: #1a1a1a;
+}
+.blanks_options a:hover
+{
+  color: #ce0000;
+}
+.blanks_options .active
+{
+  background: #fff;
+}
+.container
+{
+  position: relative;
+}
+.container > .blank_list
+{
+  background: #fff;
+  box-shadow: 0 5px 10px #8ba1c9;
+  margin: 10px;
+  padding: 20px 20px 0px 20px;
+  position: absolute;
+  width: 190px;
+}
+.blank_list .blank_name
+{
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 0px 0px 5px 0px;
+  padding: 0px;
+}
+.blank_list .blank_name a:link,.blank_list .blank_name a:visited
+{
+  color: #1a1a1a;
+}
+.blank_list .blank_name a:hover
+{
+  color: #ce0000;
+}
+.blank_list .blank_nform
+{
+  font-size: 18px;
+}
+.another_blank_padding
+{
+  padding-bottom: 25px;
+}
+.another_blank
+{
+  background: url('../img/back.jpg') no-repeat left center #fff;
+  padding: 5px 5px 5px 25px;
+}
+.another_blank:link,.another_blank:visited
+{
+  color: #1a1a1a;
+}
+.another_blank:hover
+{
+  color: #ce0000;
+}
+.blank_video
+{
+  margin: 10px 0px 10px 0px;
+  text-align: center;
+}
+.blank_video a
+{
+  background: url('../img/ico_video.png') no-repeat;
+  font-size: 14px;
+  padding: 0px 0px 0px 30px;
+}
+.blank_video a:link, .blank_video a:visited
+{
+  color: #1a1a1a;
+}
+.blank_video a:hover
+{
+  color: #ce0000;
+}
+.blank
+{
+  background-color: #fff;
+  box-shadow: 0px 10px 20px #a8b9d2;
+  margin: 0px auto;
+  width: 800px;
+  padding-top:20px;
+  margin-top:20px;
+}
+
+.blank div table {
+  width: 94% !important;
+}
+.blank .blank_name
+{
+  margin: 0px 30px;
+  padding: 0px;
+  text-align: center;
+}
+.blank .blank_nform
+{
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.blank_buttons
+{
+  margin: 0px 0px 0px 0px;
+  padding: 20px 0px 20px 0px;
+}
+.blank_button
+{
+  background: #f0f0f0;
+  border: 1px solid #cdd8eb;
+  border-radius: 5px;
+  color: #1a1a1a;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0px 10px 0px 0px;
+  padding: 10px;
+  text-decoration: none;
+}
+.blank_button img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.blank_button:hover
+{
+  background: #a2b6d6;
+  border-color: #a2b6d6;
+  color: #fff;
+  text-decoration: none;
+}
+.groups
+{
+  border-bottom: 1px dashed #bebebe;
+  padding: 20px 0px 20px 0px;
+}
+.groups_first
+{
+  padding: 10px 0px 20px 0px;
+}
+.groups_last
+{
+  border: 0px;
+}
+#group
+{
+  display: block;
+}
+#group .group_title
+{
+  float: left;
+  font-weight: bolder;
+  margin: 0 0 10px 0;
+  padding: 2px 45px 0px 0px;
+  width: 100px;
+}
+#group .title_np
+{
+  width: 300px;
+}
+#group .group_inputs
+{
+  float: left;
+  margin: 0px 0px 0px 0px;
+}
+#group .group_inputs .input
+{
+  float: left;
+  margin: 0 20px 10px 0;
+  position: relative;
+}
+#group .group_inputs .input input,#group .group_inputs .input select
+{
+  border: 1px solid #bebebe;
+  border-bottom: 3px solid #343636;
+  padding: 5px;
+}
+#group .group_inputs .input .input_filled
+{
+  border: 0px;
+  border-bottom: 3px solid #343636;
+}
+.error
+{
+  background: url('../img/ico_danger.jpg') no-repeat center right #ec0e0e;
+  color: #fff;
+}
+.error-text
+{
+  background: no-repeat center right #ec0e0e;
+  color: #fff;
+  padding: 5px;
+}
+#validation
+{
+  left: 95%;
+  position: absolute;
+  top: -55px;
+}
+#validation .massege
+{
+  background: #ececec;
+  box-shadow: 0px 0px 20px #6a6a6a;
+  font-size: 14px;
+  padding: 5px;
+  width: 90px;
+}
+#validation .arr
+{
+  background: url('../img/validation_err.png') no-repeat top left;
+  height: 10px;
+  width: 10px;
+}
+.input_400px
+{
+  width: 400px;
+}
+.input_190px
+{
+  width: 200px;
+}
+.input_80px
+{
+  width: 80px;
+}
+.input_60px
+{
+  width: 60px;
+}
+.input_50px
+{
+  width: 50px;
+}
+.input_40px
+{
+  width: 40px;
+}
+.input_20px
+{
+  width: 20px;
+}
+#group .group_inputs .input .notice
+{
+  font-size: 14px;
+  font-style: italic;
+  padding: 3px 0px 0px 10px;
+}
+.button_download
+{
+  padding-bottom: 50px;
+  position: relative;
+  text-align: center;
+}
+.button_download a, .button_download a:hover, .button_download a:focus
+{
+  background: url('../img/btn_pdf.png') no-repeat;
+  border: 0px;
+  color: #1a1a1a;
+  font-size: 22px;
+  height: 55px;
+  position: relative;
+  top: 60px;
+  width: 190px;
+}
+.blanks_others
+{
+  margin-top: 30px;
+  text-align: center;
+}
+.wrapper_footer
+{
+  margin: 0px auto;
+  max-width: 1150px;
+}
+.wrapper_footer .footer
+{
+  margin: 30px auto;
+  max-width: 85%;
+}
+.copyright
+{
+  float: left;
+}
+.social
+{
+  float: right;
+}
+@media screen and (max-width: 970px)
+{
+  #v_menu
+  {
+    display: none;
+  }
+  #h_menu
+  {
+    display: block;
+  }
+}
+@media screen and (max-width: 800px)
+{
+  #logo
+  {
+    float: none;
+    margin: 0px auto;
+  }
+  #contacts
+  {
+    display: none;
+  }
+  #group .group_title
+  {
+    float: none;
+    width: 100%;
+  }
+  #group .group_inputs
+  {
+    float: none;
+    margin: 0px;
+  }
+  #group .group_inputs .input
+  {
+    float: none;
+  }
+  #group .group_inputs .input input
+  {
+    margin: 0 0px 10px 0;
+    width: 100%;
+  }
+}
+a.button
+{
+  color: #fff;
+}
+.button_download a.button
+{
+  color: #1a1a1a;
+}
+a.statistics
+{
+  color: #1a1a1a;
+}
+.hidden
+{
+  display: none;
+}
+.brick
+{
+  background: white;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  color: #333;
+}
+.brick .img
+{
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+.brick h3, .brick h5
+{
+  text-shadow: none;
+}
+.free-wall
+{
+  margin: 15px;
+}
+.brick
+{
+  text-align: center;
+  width: 221.2px;
+}
+.brick .info
+{
+  width: 210px; 
+  position: absolute;
+  color: #333;
+}
+.brick img
+{
+  border: 0;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+.thumb_border
+{
+  padding-top: 10px;
+  box-shadow: 0 5px 10px #8ba1c9;
+  border: 0px;
+  padding: 2px;
+  position: relative;
+  min-height: 1px;
+  float: left;
+  width: 100%;
+}
+.thumb_border a 
+{
+  color: #1a1a1a;
+}
+.but-send-pbrf {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}

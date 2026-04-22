@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>2.8</version>
+    <name>OZON Seller</name>
+    <description>Модуль продаж через OZON.</description>
+    <category>pro,marketplaces</category>
+    <sign>1764078296</sign>
+    <faqlink>https://wiki.phpshop.ru/moduli/prodazhi/ozon-seller</faqlink>
+    <pro>true</pro>
+    <adminmenu>
+        <title>OZON Seller</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Товары из OZON</podmenu_name>
+            <podmenu_action>dir.ozonseller.import</podmenu_action>
+        </podmenu>
+         <podmenu>
+            <podmenu_name>Заказы из OZON</podmenu_name>
+            <podmenu_action>dir.ozonseller.order</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Акции из OZON</podmenu_name>
+            <podmenu_action>dir.ozonseller.action</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Журнал ошибок</podmenu_name>
+            <podmenu_action>dir.ozonseller.product</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.ozonseller</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.5</version>
+    <name>Альфабанк</name>
+    <description>Прием оплат через Альфабанк в соответствии с 54-ФЗ.</description>
+    <category>payment</category>
+    <sign>1768549512</sign>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/alfa-bank</faqlink>
+     <adminmenu>
+        <title>Альфабанк</title>
+        <capability>true</capability>
+         <podmenu>
+             <podmenu_name>Журнал операций</podmenu_name>
+             <podmenu_action>dir.alfabank</podmenu_action>
+         </podmenu>
+    </adminmenu>
+</module>

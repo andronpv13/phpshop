@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Alfa Credit</name>
+    <description>Покупка в кредит от Альфа-Банк.</description>
+    <category>credit</category>
+    <sign>1554817024</sign>
+    <faqlink>https://wiki.phpshop.ru/moduli/kreditovanie/pokupka-v-kredit-ot-alfabank-credit</faqlink>
+    <adminmenu>
+        <title>Купи Легко</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Заявки</podmenu_name>
+            <podmenu_action>dir.alfacredit</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

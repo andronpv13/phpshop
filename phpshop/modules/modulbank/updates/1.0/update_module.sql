@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_products` ADD `modulbank_vat_code` int(11) default 0;

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.4</version>
+    <name>Robokassa</name>
+    <description>Прием оплат через Robokassa в соответствии с 54-ФЗ для России и Казахстана.</description>
+    <category>payment</category>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/robokassa</faqlink>
+    <adminmenu>
+        <title>Robokassa</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.robokassa</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

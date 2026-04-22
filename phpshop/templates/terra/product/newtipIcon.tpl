@@ -1,0 +1,1 @@
+<span class="newtip-icon label">{Новинка}</span>

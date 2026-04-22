@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_modules_robokassa_system` ADD `merchant_country` varchar(64) default 'Россия';

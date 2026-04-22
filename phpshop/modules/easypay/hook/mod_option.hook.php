@@ -1,0 +1,1 @@
+<?php// Настройки модуляPHPShopObj::loadClass("array");class PHPShopEasypayArray extends PHPShopArray {    function PHPShopEasypayArray() {        $this->objType=3;        $this->objBase=$GLOBALS['SysValue']['base']['easypay']['easypay_system'];        parent::__construct('status','title','web_key','EP_Debug','EP_MerNo','EP_Expires');    }}?>

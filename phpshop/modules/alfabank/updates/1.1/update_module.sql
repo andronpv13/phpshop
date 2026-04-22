@@ -1,0 +1,2 @@
+ALTER TABLE `phpshop_modules_alfabank_system` ADD `api_url` varchar(255) default 'https://pay.alfabank.ru/payment/rest/register.do';
+ALTER TABLE `phpshop_modules_alfabank_system` CHANGE `dev_mode` `dev_mode` VARCHAR(255) NOT NULL DEFAULT 'https://alfa.rbsuat.com/ab/rest/register.do';

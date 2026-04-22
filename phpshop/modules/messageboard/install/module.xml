@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.5</version>
+    <name>Доска объявлений</name>
+    <description>Модуль доски объявлений.</description>
+    <category>sale</category>
+    <site>true</site>
+    <adminmenu>
+        <title>Доска объявлений</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Объявления</podmenu_name>
+            <podmenu_action>dir.messageboard</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

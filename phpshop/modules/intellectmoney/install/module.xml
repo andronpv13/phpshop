@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>IntellectMoney</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/platezhnye-sistemy-agregatory/intellectmoney</faqlink>
+    <description>Прием оплат через платёжную систему IntellectMoney.</description>
+    <category>payment</category>
+    <adminmenu>
+        <title>IntellectMoney</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>3.5</version>
+    <name>Retail CRM</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/crm/retailcrm</faqlink>
+    <description>Автоматизация интернет-продаж Retail CRM</description>
+    <category>crm,pro</category>
+    <pro>true</pro>
+    <adminmenu>
+        <title>Retail CRM</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.retailcrm</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

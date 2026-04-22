@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>2.9</version>
+    <name>Промокоды</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/prodazhi/promokody</faqlink>
+    <description>Модуль промоакций с промокодами.</description>
+    <category>sale</category>
+    <adminmenu>
+        <title>Промокоды</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Обзор промокодов</podmenu_name>
+            <podmenu_action>dir.promotions</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Новый промокод</podmenu_name>
+            <podmenu_action>dir.promotions&amp;action=new</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

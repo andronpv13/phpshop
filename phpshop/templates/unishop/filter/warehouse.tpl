@@ -1,0 +1,1 @@
+<a class="btn btn-default @warehouse_active@" href="?w=@warehouse_id@">@warehouse_name@</a>

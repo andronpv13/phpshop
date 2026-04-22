@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.2</version>
+    <name>Онлайн касса Pechka54</name>
+    <description>Модуль онлайн кассы Pechka54.</description>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/kassy/pechka54</faqlink>
+    <category>payment</category>
+    <sign>1545904926</sign>
+    <adminmenu>
+        <title>Касса Pechka54</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.pechka54</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

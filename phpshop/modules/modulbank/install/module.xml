@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.1</version>
+    <name>МодульБанк</name>
+    <description>Прием оплат через МодульБанк в соответствии с 54-ФЗ.</description>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/modulbank</faqlink>
+    <sign>1767690524</sign>
+    <category>payment</category>
+     <adminmenu>
+        <title>МодульБанк</title>
+        <capability>true</capability>
+         <podmenu>
+             <podmenu_name>Журнал операций</podmenu_name>
+             <podmenu_action>dir.modulbank</podmenu_action>
+         </podmenu>
+    </adminmenu>
+</module>

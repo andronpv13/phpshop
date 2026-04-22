@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.1</version>
+    <name>Авангард</name>
+    <description>Прием оплат через платежный шлюз банка Авангард.</description>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/bank-avangard</faqlink>
+    <sign>1575018039</sign>
+    <category>payment</category>
+     <adminmenu>
+        <title>Авангард</title>
+        <capability>true</capability>
+         <podmenu>
+             <podmenu_name>Журнал операций</podmenu_name>
+             <podmenu_action>dir.avangard</podmenu_action>
+         </podmenu>
+    </adminmenu>
+</module>

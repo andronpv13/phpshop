@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.9</version>
+    <name>WB Partners</name>
+    <description>Модуль продаж через Wildberries.</description>
+    <category>pro,marketplaces</category>
+    <sign>1764078296</sign>
+    <faqlink>https://wiki.phpshop.ru/moduli/prodazhi/wb-partners</faqlink>
+    <pro>true</pro>
+    <adminmenu>
+        <title>WB Partners</title>
+        <capability>true</capability>
+         <podmenu>
+            <podmenu_name>Товары для WB</podmenu_name>
+            <podmenu_action>dir.wbseller.product</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Товары из WB</podmenu_name>
+            <podmenu_action>dir.wbseller.import</podmenu_action>
+        </podmenu>
+         <podmenu>
+            <podmenu_name>Заказы из WB</podmenu_name>
+            <podmenu_action>dir.wbseller.order</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.wbseller</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

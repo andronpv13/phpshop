@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>PIR.Company</name>
+    <description>Модуль SMS уведомления PIR Company</description>
+    <category>develop</category>
+    <site>true</site>
+    <adminmenu>
+        <title>SMS уведомления PIR Company</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Настройка</podmenu_name>
+            <podmenu_action>dir.smspircompany</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

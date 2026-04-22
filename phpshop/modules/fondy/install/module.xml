@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Fondy</name>
+    <description>Прием оплат через платёжную систему FONDY</description>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/fondy</faqlink>
+    <category>payment</category>
+     <adminmenu>
+        <title>Fondy</title>
+        <capability>true</capability>
+         <podmenu>
+             <podmenu_name>Журнал операций</podmenu_name>
+             <podmenu_action>dir.fondy</podmenu_action>
+         </podmenu>
+    </adminmenu>
+</module>

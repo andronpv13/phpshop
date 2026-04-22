@@ -1,0 +1,7 @@
+{
+    "name": "alvater/branches",
+    "type": "project",
+    "require": {
+        "jaybizzle/crawler-detect": "^1.2"
+    }
+}

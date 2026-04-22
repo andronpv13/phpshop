@@ -1,0 +1,135 @@
+<?xml version = "1.0" encoding = "windows-1251" ?>
+<style>
+    <element>
+        <name>Цвет</name>
+        <description>Цвет</description>
+        <content>Цветовая гамма сайта</content>
+        <var>
+            <name>theme</name>
+            <type>theme</type>
+        </var>
+    </element>
+    <element>
+        <name>.header-top,.secondary-nav</name>
+        <description>Шапка</description>
+        <content>Цвет заливки шапки</content>
+        <var>
+            <name>background-color</name>
+            <type>color</type>
+            <theme>true</theme>
+        </var>
+    </element>
+    <element>
+        <name>#footer-area</name>
+        <description>Подвал</description>
+        <content>Цвет заливки подвала</content>
+        <var>
+            <name>background-color</name>
+            <type>color</type>
+            <theme>true</theme>
+        </var>
+    </element>
+    <element>
+        <name>.main-color-text</name>
+        <description>Текст</description>
+        <content>Общий цвет текста</content>
+        <var>
+            <name>color</name>
+            <type>color</type>
+            <theme>true</theme>
+        </var>
+    </element>
+    <element>
+        <name>.header-link-color</name>
+        <description>Цвет текста в шапке</description>
+        <content>Цвет текста и ссылок в шапке</content>
+        <var>
+            <name>color</name>
+            <type>color</type>
+        </var>
+    </element>
+    <element>
+        <name>.main-navbar-top > li > a,.account-dropdown li a, .account-dropdown li> span,.search-link</name>
+        <description>Навигация</description>
+        <content>Цвет ссылок в навигационном меню</content>
+        <var>
+            <name>color</name>
+            <type>color</type>
+            <theme>true</theme>
+        </var>
+    </element>
+    <element>
+        <name>.main-navbar-list-catalog-wrapper > li > a,.sidebar-nav> li > a</name>
+        <description>Меню каталога</description>
+        <content>Цвет ссылок в меню каталога</content>
+        <var>
+            <name>color</name>
+            <type>color</type>
+        </var>
+    </element>
+    <element>
+        <name>.main-navbar-list-catalog-hidden a,.sidebar-nav li > a,.breadcrumb li a</name>
+        <description>Подменю каталога</description>
+        <content>Цвет ссылок в подменю каталога</content>
+        <var>
+            <name>color</name>
+            <type>color</type>
+        </var>
+    </element>
+    <element>
+        <name>.sidebar-nav li > a:hover,.sidebar-nav li > a.active,.breadcrumb>li>a:hover</name>
+        <description>Активный каталог</description>
+        <content>Цвет ссылки активного каталога</content>
+        <var>
+            <name>color</name>
+            <type>color</type>
+        </var>
+    </element>
+    <element>
+        <name>.shop-page-main-title,.main-page-title,.main-page-title a</name>
+        <description>Основные заголовки</description>
+        <content>Заголовки страниц</content>
+        <var>
+            <name>color</name>
+            <type>color</type>
+            <theme>true</theme>
+        </var>
+    </element>
+    <element>
+        <name>#faset-filter-body .faset-filter-block-wrapper h4,.panel-default>.panel-heading > h3, .panel-success>.panel-heading > h3,.side-heading,.tabpanel-wrapper .nav-tabs>li.active>a, .tabpanel-wrapper .nav-tabs>li.active>a:focus, .tabpanel-wrapper .nav-tabs>li.active>a:hover</name>
+        <description>Втор. заголовки</description>
+        <content>Второстепенные заголовки</content>
+        <var>
+            <name>color</name>
+            <type>color</type>
+        </var>
+    </element>
+    <element>
+        <name>.product-page-secondary-button .btn.btn-cart,.product-page-button .addToCartFull,.btn-main</name>
+        <description>Основные кнопоки</description>
+        <content>Цвет фона основных кнопок</content>
+        <var>
+            <name>background</name>
+            <type>color</type>
+        </var>
+    </element>
+    <element>
+        <name>.compare-list-button-wrapper .addToWishList,.header-account,.search-open-button,.header-bottom #cart #cartlink,.product-block-button .addToWishList</name>
+        <description>Цвет втор. кнопок</description>
+        <content>Цвет текста второстепенных кнопок</content>
+        <var>
+            <name>color</name>
+            <type>color</type>
+        </var>
+    </element>
+    <element>
+        <name>.product-block-button .btn.btn-cart</name>
+        <description>В корзину</description>
+        <content>Цвет текста кнопки в корзину</content>
+        <var>
+            <name>color</name>
+            <type>color</type>
+            <theme>true</theme>
+        </var>
+    </element>
+</style>   

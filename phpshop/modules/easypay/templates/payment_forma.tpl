@@ -1,0 +1,1 @@
+<p><img src="phpshop/modules/easypay/templates/easypay_logo.gif" align="left" hspace="10">Платежный сервис Easypay – система платежных решений для бизнеса, принимаем оплату товаров и услуг онлайн банковскими картами Visa, Mastercard, через систему ЕРИП (АИС "Расчет") и сервис E-POS.<p><p>@payment_forma@<p>

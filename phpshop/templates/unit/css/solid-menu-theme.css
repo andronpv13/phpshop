@@ -1,0 +1,639 @@
+/* COLORS, BACKGROUND-COLORS */
+.solid-menus .navbar-default.navbar-dark {
+  background: #151515;
+  border-left: 1px solid #151515;
+  border-right: 1px solid #151515;
+  border-bottom: 0;
+  border-top: 0;
+}
+.solid-menus .navbar-default.navbar-dark .navbar-brand {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-dark .navbar-toggle {
+  border: 0;
+  padding-left: 0;
+}
+.solid-menus .navbar-default.navbar-dark .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.solid-menus .navbar-default.navbar-dark .navbar-toggle:hover,
+.solid-menus .navbar-default.navbar-dark .navbar-toggle:focus {
+  background-color: transparent;
+}
+.solid-menus .navbar-default.navbar-dark .navbar-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.solid-menus .navbar-default.navbar-dark .navbar-nav > li > a {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-dark .navbar-nav > li > a:hover {
+  background: #e00101;
+}
+.solid-menus .navbar-default.navbar-dark .navbar-nav > .open > a,
+.solid-menus .navbar-default.navbar-dark .navbar-default .navbar-nav > .open > a:focus,
+.solid-menus .navbar-default.navbar-dark .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #e00101;
+}
+.solid-menus .navbar-default.navbar-dark.navbar-hover .dropdown:hover > a {
+  background-color: #e00101;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-dark.navbar-hover .dropdown-menu > li > a:focus {
+  color: #333333;
+  background-color: none;
+}
+.solid-menus .navbar-default.navbar-dark.navbar-hover .dropdown-menu > li > a:hover {
+  color: white;
+  background-color: #e00101;
+}
+.solid-menus .navbar-default.navbar-dark.navbar-click .dropdown:hover > a {
+  background-color: #e00101;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-dark.navbar-click .dropdown-menu > li > a:focus,
+.solid-menus .navbar-default.navbar-dark.navbar-click .dropdown-menu > li > a:hover {
+  background-color: #e00101;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-dark .dropdown-menu {
+  background: white;
+}
+.solid-menus .navbar-default.navbar-dark .dropdown-menu.dropdown-menu-no-bg-hov > li > a:hover {
+  color: #e00101 !important;
+}
+.solid-menus .navbar-default.navbar-dark .navbar-pos-search .x-search i {
+  color: #e00101;
+}
+.solid-menus .navbar-default.navbar-dark #search_term {
+  background: #151515;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-dark .s-link:hover {
+  color: #e00101 !important;
+}
+.solid-menus .navbar-default.navbar-dark .s-list > li > a:hover,
+.solid-menus .navbar-default.navbar-dark .s-list > li > a:hover > span {
+  color: red  !important;
+  background-color: transparent !important;
+}
+.solid-menus .navbar-default.navbar-dark .s-list.s-list-no-hover > li > a:hover,
+.solid-menus .navbar-default.navbar-dark .s-list.s-list-no-hover > li > a:hover > span {
+  background-color: transparent !important;
+  color: #e00101 !important;
+}
+.solid-menus .navbar-default.navbar-dark .s-list.s-list-sprite > li > a:hover {
+  color: #e00101 !important;
+  background-color: transparent !important;
+}
+.solid-menus .navbar-default.navbar-dark .bb-2px {
+  border-color: #e00101;
+}
+.solid-menus .navbar-default.navbar-dark .tile-container .tile:hover {
+  background: #e00101;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-dark .tile-container .tile:hover a {
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-dark .i-list-i-block.i-list-i-block-md.i-list-i-block-bg-hov > li a {
+  display: block !important;
+  padding: 10px 20px !important;
+  text-decoration: none;
+  color: #333333;
+}
+.solid-menus .navbar-default.navbar-dark .i-list-i-block.i-list-i-block-md.i-list-i-block-bg-hov > li a:hover {
+  background-color: #e00101;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-dark .i-list-i-block.i-list-i-block-md.i-list-i-block-no-bg-hover > li a {
+  display: block !important;
+  padding: 10px 20px !important;
+  text-decoration: none;
+  color: #333333;
+}
+.solid-menus .navbar-default.navbar-dark .i-list-i-block.i-list-i-block-md.i-list-i-block-no-bg-hover > li a:hover {
+  background-color: transparent;
+  color: #e00101;
+}
+.solid-menus .navbar-default.navbar-red {
+  background: #d3304b;
+  border-left: 1px solid #d3304b;
+  border-right: 1px solid #d3304b;
+  border-bottom: 0;
+  border-top: 0;
+}
+.solid-menus .navbar-default.navbar-red .navbar-brand {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-red .navbar-toggle {
+  border: 0;
+  padding-left: 0;
+}
+.solid-menus .navbar-default.navbar-red .navbar-toggle .icon-bar {
+  background-color: #151515;
+}
+.solid-menus .navbar-default.navbar-red .navbar-toggle:hover,
+.solid-menus .navbar-default.navbar-red .navbar-toggle:focus {
+  background-color: transparent;
+}
+.solid-menus .navbar-default.navbar-red .navbar-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.solid-menus .navbar-default.navbar-red .navbar-nav > li > a {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-red .navbar-nav > li > a:hover {
+  background: #151515;
+}
+.solid-menus .navbar-default.navbar-red .navbar-nav > .open > a,
+.solid-menus .navbar-default.navbar-red .navbar-default .navbar-nav > .open > a:focus,
+.solid-menus .navbar-default.navbar-red .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #151515;
+}
+.solid-menus .navbar-default.navbar-red.navbar-hover .dropdown:hover > a {
+  background-color: #151515;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-red.navbar-hover .dropdown-menu > li > a:focus {
+  color: white;
+  background-color: #151515;
+}
+.solid-menus .navbar-default.navbar-red.navbar-hover .dropdown-menu > li > a:hover {
+  color: white;
+  background-color: #151515;
+}
+.solid-menus .navbar-default.navbar-red .dropdown-menu {
+  background: white;
+}
+.solid-menus .navbar-default.navbar-red .dropdown-menu.dropdown-menu-no-bg-hov > li > a:hover {
+  color: #e00101 !important;
+}
+.solid-menus .navbar-default.navbar-red.navbar-click .dropdown:hover > a {
+  background-color: #151515;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-red.navbar-click .dropdown-menu > li > a:focus,
+.solid-menus .navbar-default.navbar-red.navbar-click .dropdown-menu > li > a:hover {
+  background-color: #151515;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-red .navbar-pos-search .x-search i {
+  color: #151515;
+}
+.solid-menus .navbar-default.navbar-red #search_term {
+  background: #d3304b;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-red #search_term::-webkit-input-placeholder {
+  color: #d9d9d9;
+}
+.solid-menus .navbar-default.navbar-red .s-link:hover {
+  color: #d3304b !important;
+}
+.solid-menus .navbar-default.navbar-red .s-list > li > a:hover,
+.solid-menus .navbar-default.navbar-red .s-list > li > a:hover > span {
+  color: #d3304b !important;
+  background-color: transparent !important;
+}
+.solid-menus .navbar-default.navbar-red .s-list.s-list-no-hover > li > a:hover,
+.solid-menus .navbar-default.navbar-red .s-list.s-list-no-hover > li > a:hover > span {
+  background-color: transparent !important;
+  color: #d3304b !important;
+}
+.solid-menus .navbar-default.navbar-red .s-list.s-list-sprite > li > a:hover {
+  color: #d3304b !important;
+  background-color: transparent !important;
+}
+.solid-menus .navbar-default.navbar-red .bb-2px {
+  border-color: #d3304b;
+}
+.solid-menus .navbar-default.navbar-red .tile-container .tile:hover {
+  background: #d3304b;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-red .tile-container .tile:hover a {
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-red .i-list-i-block.i-list-i-block-md.i-list-i-block-bg-hov > li a {
+  display: block !important;
+  padding: 10px 20px !important;
+  text-decoration: none;
+  color: #333333;
+}
+.solid-menus .navbar-default.navbar-red .i-list-i-block.i-list-i-block-md.i-list-i-block-bg-hov > li a:hover {
+  background-color: #151515;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-red .i-list-i-block.i-list-i-block-md.i-list-i-block-no-bg-hover > li a {
+  display: block !important;
+  padding: 10px 20px !important;
+  text-decoration: none;
+  color: #333333;
+}
+.solid-menus .navbar-default.navbar-red .i-list-i-block.i-list-i-block-md.i-list-i-block-no-bg-hover > li a:hover {
+  background-color: transparent;
+  color: #d3304b;
+}
+.solid-menus .navbar-default.navbar-blue {
+  background: #2da5da;
+  border-left: 1px solid #2da5da;
+  border-right: 1px solid #2da5da;
+  border-bottom: 0;
+  border-top: 0;
+}
+.solid-menus .navbar-default.navbar-blue .navbar-brand {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-blue .navbar-toggle {
+  border: 0;
+  padding-left: 0;
+}
+.solid-menus .navbar-default.navbar-blue .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.solid-menus .navbar-default.navbar-blue .navbar-toggle:hover,
+.solid-menus .navbar-default.navbar-blue .navbar-toggle:focus {
+  background-color: transparent;
+}
+.solid-menus .navbar-default.navbar-blue .navbar-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.solid-menus .navbar-default.navbar-blue .navbar-nav > li > a {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-blue .navbar-nav > li > a:hover {
+  background: #145673;
+}
+.solid-menus .navbar-default.navbar-blue .navbar-nav > .open > a,
+.solid-menus .navbar-default.navbar-blue .navbar-default .navbar-nav > .open > a:focus,
+.solid-menus .navbar-default.navbar-blue .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #145673;
+}
+.solid-menus .navbar-default.navbar-blue .dropdown-menu {
+  background: white;
+}
+.solid-menus .navbar-default.navbar-blue .dropdown-menu.dropdown-menu-no-bg-hov > li > a:hover {
+  color: #145673 !important;
+}
+.solid-menus .navbar-default.navbar-blue.navbar-hover .dropdown:hover > a {
+  background-color: #145673;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-blue.navbar-hover .dropdown-menu > li > a:focus {
+  color: #333333;
+  background-color: none;
+}
+.solid-menus .navbar-default.navbar-blue.navbar-hover .dropdown-menu > li > a:hover {
+  color: white;
+  background-color: #145673;
+}
+.solid-menus .navbar-default.navbar-blue.navbar-click .dropdown:hover > a {
+  background-color: #145673;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-blue.navbar-click .dropdown-menu > li > a:focus,
+.solid-menus .navbar-default.navbar-blue.navbar-click .dropdown-menu > li > a:hover {
+  background-color: #145673;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-blue .navbar-pos-search .x-search i {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-blue #search_term {
+  background: #2da5da;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-blue #search_term::-webkit-input-placeholder {
+  color: #e3e3e3;
+}
+.solid-menus .navbar-default.navbar-blue #search_term:-moz-placeholder {
+  color: #e3e3e3;
+}
+.solid-menus .navbar-default.navbar-blue #search_term::-moz-placeholder {
+  color: #e3e3e3;
+}
+.solid-menus .navbar-default.navbar-blue #search_term:-ms-input-placeholder {
+  color: #e3e3e3;
+}
+.solid-menus .navbar-default.navbar-blue #search_term::placeholder {
+  color: #e3e3e3;
+}
+.solid-menus .navbar-default.navbar-blue .s-link:hover {
+  color: #145673 !important;
+}
+.solid-menus .navbar-default.navbar-blue .s-list > li > a:hover,
+.solid-menus .navbar-default.navbar-blue .s-list > li > a:hover > span {
+  color: #145673 !important;
+  background-color: transparent !important;
+}
+.solid-menus .navbar-default.navbar-blue .s-list.s-list-no-hover > li > a:hover,
+.solid-menus .navbar-default.navbar-blue .s-list.s-list-no-hover > li > a:hover > span {
+  background-color: transparent !important;
+  color: #145673 !important;
+}
+.solid-menus .navbar-default.navbar-blue .s-list.s-list-sprite > li > a:hover {
+  color: #145673 !important;
+  background-color: transparent !important;
+}
+.solid-menus .navbar-default.navbar-blue .bb-2px {
+  border-color: #145673;
+}
+.solid-menus .navbar-default.navbar-blue .tile-container .tile:hover {
+  background: #145673;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-blue .tile-container .tile:hover a {
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-blue .i-list-i-block.i-list-i-block-md.i-list-i-block-bg-hov > li a {
+  display: block !important;
+  padding: 10px 20px !important;
+  text-decoration: none;
+  color: #333333;
+}
+.solid-menus .navbar-default.navbar-blue .i-list-i-block.i-list-i-block-md.i-list-i-block-bg-hov > li a:hover {
+  background-color: #145673;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-blue .i-list-i-block.i-list-i-block-md.i-list-i-block-no-bg-hover > li a {
+  display: block !important;
+  padding: 10px 20px !important;
+  text-decoration: none;
+  color: #333333;
+}
+.solid-menus .navbar-default.navbar-blue .i-list-i-block.i-list-i-block-md.i-list-i-block-no-bg-hover > li a:hover {
+  background-color: transparent;
+  color: #145673;
+}
+.solid-menus .navbar-default.navbar-purple {
+  background: #ad3bc4;
+  border-left: 1px solid #ad3bc4;
+  border-right: 1px solid #ad3bc4;
+  border-bottom: 0;
+  border-top: 0;
+}
+.solid-menus .navbar-default.navbar-purple .navbar-brand {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-purple .navbar-toggle {
+  border: 0;
+  padding-left: 0;
+}
+.solid-menus .navbar-default.navbar-purple .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.solid-menus .navbar-default.navbar-purple .navbar-toggle:hover,
+.solid-menus .navbar-default.navbar-purple .navbar-toggle:focus {
+  background-color: transparent;
+}
+.solid-menus .navbar-default.navbar-purple .navbar-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.solid-menus .navbar-default.navbar-purple .navbar-nav > li > a {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-purple .navbar-nav > li > a:hover {
+  background: #561d62;
+}
+.solid-menus .navbar-default.navbar-purple .navbar-nav > .open > a,
+.solid-menus .navbar-default.navbar-purple .navbar-default .navbar-nav > .open > a:focus,
+.solid-menus .navbar-default.navbar-purple .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #561d62;
+}
+.solid-menus .navbar-default.navbar-purple.navbar-hover .dropdown:hover > a {
+  background-color: #561d62;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-purple.navbar-hover .dropdown-menu > li > a:focus {
+  color: #333333;
+  background-color: none;
+}
+.solid-menus .navbar-default.navbar-purple.navbar-hover .dropdown-menu > li > a:hover {
+  color: white;
+  background-color: #561d62;
+}
+.solid-menus .navbar-default.navbar-purple.navbar-click .dropdown:hover > a {
+  background-color: #561d62;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-purple.navbar-click .dropdown-menu > li > a:focus,
+.solid-menus .navbar-default.navbar-purple.navbar-click .dropdown-menu > li > a:hover {
+  background-color: #561d62;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-purple .dropdown-menu {
+  background: white;
+}
+.solid-menus .navbar-default.navbar-purple .dropdown-menu.dropdown-menu-no-bg-hov > li > a:hover {
+  color: #561d62 !important;
+}
+.solid-menus .navbar-default.navbar-purple .navbar-pos-search .x-search i {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-purple #search_term {
+  background: #ad3bc4;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-purple #search_term::-webkit-input-placeholder {
+  color: #d1d1d1;
+}
+.solid-menus .navbar-default.navbar-purple #search_term:-moz-placeholder {
+  color: #d1d1d1;
+}
+.solid-menus .navbar-default.navbar-purple #search_term::-moz-placeholder {
+  color: #d1d1d1;
+}
+.solid-menus .navbar-default.navbar-purple #search_term:-ms-input-placeholder {
+  color: #d1d1d1;
+}
+.solid-menus .navbar-default.navbar-purple #search_term::placeholder {
+  color: #d1d1d1;
+}
+.solid-menus .navbar-default.navbar-purple .s-link:hover {
+  color: #561d62 !important;
+}
+.solid-menus .navbar-default.navbar-purple .s-list > li > a:hover,
+.solid-menus .navbar-default.navbar-purple .s-list > li > a:hover > span {
+  color: #561d62 !important;
+  background-color: transparent !important;
+}
+.solid-menus .navbar-default.navbar-purple .s-list.s-list-no-hover > li > a:hover,
+.solid-menus .navbar-default.navbar-purple .s-list.s-list-no-hover > li > a:hover > span {
+  background-color: transparent !important;
+  color: #561d62 !important;
+}
+.solid-menus .navbar-default.navbar-purple .s-list.s-list-sprite > li > a:hover {
+  color: #561d62 !important;
+  background-color: transparent !important;
+}
+.solid-menus .navbar-default.navbar-purple .bb-2px {
+  border-color: #561d62;
+}
+.solid-menus .navbar-default.navbar-purple .tile-container .tile:hover {
+  background: #561d62;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-purple .tile-container .tile:hover a {
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-purple .i-list-i-block.i-list-i-block-md.i-list-i-block-bg-hov > li a {
+  display: block !important;
+  padding: 10px 20px !important;
+  text-decoration: none;
+  color: #333333;
+}
+.solid-menus .navbar-default.navbar-purple .i-list-i-block.i-list-i-block-md.i-list-i-block-bg-hov > li a:hover {
+  background-color: #561d62;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-purple .i-list-i-block.i-list-i-block-md.i-list-i-block-no-bg-hover > li a {
+  display: block !important;
+  padding: 10px 20px !important;
+  text-decoration: none;
+  color: #333333;
+}
+.solid-menus .navbar-default.navbar-purple .i-list-i-block.i-list-i-block-md.i-list-i-block-no-bg-hover > li a:hover {
+  background-color: transparent;
+  color: #561d62;
+}
+.solid-menus .navbar-default.navbar-orange {
+  background: #d85015;
+  border-left: 1px solid #d85015;
+  border-right: 1px solid #d85015;
+  border-bottom: 0;
+  border-top: 0;
+}
+.solid-menus .navbar-default.navbar-orange .navbar-brand {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-orange .navbar-toggle {
+  border: 0;
+  padding-left: 0;
+}
+.solid-menus .navbar-default.navbar-orange .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.solid-menus .navbar-default.navbar-orange .navbar-toggle:hover,
+.solid-menus .navbar-default.navbar-orange .navbar-toggle:focus {
+  background-color: transparent;
+}
+.solid-menus .navbar-default.navbar-orange .navbar-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.solid-menus .navbar-default.navbar-orange .navbar-nav > li > a {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-orange .navbar-nav > li > a:hover {
+  background: #92360e;
+}
+.solid-menus .navbar-default.navbar-orange .navbar-nav > .open > a,
+.solid-menus .navbar-default.navbar-orange .navbar-default .navbar-nav > .open > a:focus,
+.solid-menus .navbar-default.navbar-orange .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #92360e;
+}
+.solid-menus .navbar-default.navbar-orange.navbar-hover .dropdown:hover > a {
+  background-color: #92360e;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-orange.navbar-hover .dropdown-menu > li > a:focus {
+  color: #333333;
+  background-color: none;
+}
+.solid-menus .navbar-default.navbar-orange.navbar-hover .dropdown-menu > li > a:hover {
+  color: white;
+  background-color: #92360e;
+}
+.solid-menus .navbar-default.navbar-orange.navbar-click .dropdown:hover > a {
+  background-color: #92360e;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-orange.navbar-click .dropdown-menu > li > a:focus,
+.solid-menus .navbar-default.navbar-orange.navbar-click .dropdown-menu > li > a:hover {
+  background-color: #92360e;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-orange .dropdown-menu {
+  background: white;
+}
+.solid-menus .navbar-default.navbar-orange .dropdown-menu.dropdown-menu-no-bg-hov > li > a:hover {
+  color: #92360e !important;
+}
+.solid-menus .navbar-default.navbar-orange .navbar-pos-search .x-search i {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-orange #search_term {
+  background: #d85015;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-orange #search_term::-webkit-input-placeholder {
+  color: #d1d1d1;
+}
+.solid-menus .navbar-default.navbar-orange #search_term:-moz-placeholder {
+  color: #d1d1d1;
+}
+.solid-menus .navbar-default.navbar-orange #search_term::-moz-placeholder {
+  color: #d1d1d1;
+}
+.solid-menus .navbar-default.navbar-orange #search_term:-ms-input-placeholder {
+  color: #d1d1d1;
+}
+.solid-menus .navbar-default.navbar-orange #search_term::placeholder {
+  color: #d1d1d1;
+}
+.solid-menus .navbar-default.navbar-orange .s-link:hover {
+  color: #92360e !important;
+}
+.solid-menus .navbar-default.navbar-orange .s-list > li > a:hover,
+.solid-menus .navbar-default.navbar-orange .s-list > li > a:hover > span {
+  color: #92360e !important;
+  background-color: transparent !important;
+}
+.solid-menus .navbar-default.navbar-orange .s-list.s-list-no-hover > li > a:hover,
+.solid-menus .navbar-default.navbar-orange .s-list.s-list-no-hover > li > a:hover > span {
+  background-color: transparent !important;
+  color: #92360e !important;
+}
+.solid-menus .navbar-default.navbar-orange .s-list.s-list-sprite > li > a:hover {
+  color: #92360e !important;
+  background-color: transparent !important;
+}
+.solid-menus .navbar-default.navbar-orange .bb-2px {
+  border-color: #92360e;
+}
+.solid-menus .navbar-default.navbar-orange .tile-container .tile:hover {
+  background: #92360e;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-orange .tile-container .tile:hover a {
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-orange .i-list-i-block.i-list-i-block-md.i-list-i-block-bg-hov > li a {
+  display: block !important;
+  padding: 10px 20px !important;
+  text-decoration: none;
+  color: #333333;
+}
+.solid-menus .navbar-default.navbar-orange .i-list-i-block.i-list-i-block-md.i-list-i-block-bg-hov > li a:hover {
+  background-color: #92360e;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-orange .i-list-i-block.i-list-i-block-md.i-list-i-block-no-bg-hover > li a {
+  display: block !important;
+  padding: 10px 20px !important;
+  text-decoration: none;
+  color: #333333;
+}
+.solid-menus .navbar-default.navbar-orange .i-list-i-block.i-list-i-block-md.i-list-i-block-no-bg-hover > li a:hover {
+  background-color: transparent;
+  color: #92360e;
+}
+
+.solid-menus .navbar{
+    box-shadow: none;
+    border: 0px;
+}

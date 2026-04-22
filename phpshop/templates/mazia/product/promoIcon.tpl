@@ -1,0 +1,1 @@
+<span class="sale bg-light" style="position: unset;">@promoLabel@</span>

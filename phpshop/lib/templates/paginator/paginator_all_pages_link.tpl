@@ -1,0 +1,1 @@
+<a href="@allPagesLink@">{Все позиции}</a>

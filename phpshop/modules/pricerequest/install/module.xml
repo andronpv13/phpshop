@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Запрос цены</name>
+    <description>Модуль запроса цены товара.</description>
+    <category>sale</category>
+    <faqlink>https://wiki.phpshop.ru/moduli/prodazhi/price-request</faqlink>
+    <catalog>true</catalog>
+    <sign>1759908634</sign>
+    <adminmenu>
+        <title>Запрос цены</title>
+        <capability>true</capability>
+         <podmenu>
+            <podmenu_name>Обзор заявок</podmenu_name>
+            <podmenu_action>dir.pricerequest</podmenu_action>
+        </podmenu>
+        <notification>true</notification>
+    </adminmenu>
+</module>

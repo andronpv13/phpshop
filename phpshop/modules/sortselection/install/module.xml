@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Sort Selection</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/prodazhi/sort-selection</faqlink>
+    <description>Сквозной подбор товаров по параметрам.</description>
+    <category>sale</category>
+    <catalog>true</catalog>
+    <sign>1652697683</sign>
+    <adminmenu>
+        <title>Sort Selection</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

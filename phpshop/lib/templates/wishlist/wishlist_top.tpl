@@ -1,0 +1,1 @@
+<a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">{Отложенные товары} (<span class="wishlistcount">@wishlistCount@</span>)</a>

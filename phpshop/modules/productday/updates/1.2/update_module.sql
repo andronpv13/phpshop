@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_products` ADD `productday_time` int(11) DEFAULT null;

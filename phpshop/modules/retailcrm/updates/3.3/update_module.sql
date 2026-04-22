@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_products` ADD `retail_product_id` varchar(64) default '';

@@ -1,0 +1,1 @@
+<span class="badge-success small px-1">{Новинка}</span>

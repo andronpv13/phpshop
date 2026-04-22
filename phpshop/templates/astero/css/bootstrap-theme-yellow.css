@@ -1,0 +1,145 @@
+
+.bootstrap-theme{
+color:#fff;
+}
+#header-area,#footer-area{
+-webkit-filter:hue-rotate(215deg);
+-ms-filter:hue-rotate(215deg);
+filter:hue-rotate(215deg);
+-o-filter:hue-rotate(215deg);
+-moz-filter:hue-rotate(215deg);
+-editor-filter:215;
+}
+#header-area{
+background:url(../images/header-bg.jpg) no-repeat center;
+background-size:cover;
+}
+#footer-area{
+background:url(../images/header-bg.jpg) no-repeat center;
+background-size:cover;
+}
+.header-color,.header-color a,.header-color .btn,.header-color h4,.header-links a{
+color:#ffffff !important;
+}
+.side-heading,.panel-default > .panel-heading,.panel-success > .panel-heading,.product-col .btn-cart:hover,.product-info .product-details .btn-cart:hover,.product-info-box .heading,.btn-primary, .pagination > .active > a{
+background:#ffb400 !important;
+}
+.product-filter .display label.active,.product-col .price span.price-new, .product-col h4 a:hover, .product-col h4 a:focus,.product-info .product-details .manufacturer,.product-info .product-details .price-new,.breadcrumb li.active,.dl-horizontal.total{
+color:#ffb400 !important;
+}
+.footer-links a,.header-links a{
+color:#ffffff !important;
+}
+.btn-main, .btn-primary, .pagination > .active > a{
+background:#ffb400 !important;
+border-color:transparent !important;
+}
+#main-menu .navbar-nav > li > a:hover, .dropdown-menu.mega-menu, #main-menu .navbar-nav > li.open a,.main-navbar-list-catalog-wrapper, .user-dropdown > .dropdown-menu,.nav-catalog-dropdown-link.open, .sidebar-nav ul.active, .sidebar-nav ul.active li a, #main-menu .navbar-nav > li.active a{
+background:#ffb400 !important;
+}
+.main-navbar-top-catalog:hover .main-navbar-list-catalog-wrapper li a:hover, .main-navbar-list-catalog-hidden.active,.user-dropdown > .dropdown-menu li a:hover,.main-navbar-top-catalog:hover .main-navbar-list-catalog-wrapper li a.active, .sidebar-nav > li > ul.active > li.active > a, .sidebar-nav ul.active li:hover a, .btn-main:hover{
+background: !important;
+}
+.product-col .btn-cart,.product-info .product-details .btn-cart{
+background:#1c1c1c !important;
+}
+.header-valuta-disp-wrapper .btn-default,#cart .dropdown-menu{
+background:#1c1c1c !important;
+}
+span.promo-icon{
+background-color:#ffb400 !important;
+float:left;
+color:#000000;
+font-weight:lighter;
+padding:3px 7px 4px;
+font-size:12px;
+display:inline;
+border-radius:0px;
+margin-right:4px;
+}
+span.sale-icon{
+background-color:#ffb400 !important;
+float:left;
+color:#000000;
+font-weight:lighter;
+padding:3px 7px 4px;
+font-size:12px;
+display:inline;
+border-radius:0px;
+margin-right:4px;
+}
+span.newtip-icon{
+background-color:#ffcd57 !important;
+float:left;
+color:#000000;
+font-weight:lighter;
+padding:3px 7px 4px;
+font-size:12px;
+display:inline;
+border-radius:0px;
+margin-right:4px;
+}
+span.hit-icon{
+background-color:#ffde90 !important;
+float:left;
+color:#000000;
+font-weight:lighter;
+padding:3px 7px 4px;
+font-size:12px;
+display:inline;
+border-radius:0px;
+margin-right:4px;
+}
+span.sale-icon-content{
+position:absolute;
+z-index:5;
+padding:10px 0px 0px 5px;
+}
+.side-heading{
+margin-top:0;
+padding:12px 15px;
+font-size:18px;
+color:#000000;
+background:#3bc6e4;
+margin-bottom:0;
+}
+.product-info-box .heading{
+padding-bottom:20px;
+padding:12px 20px;
+font-size:18px;
+color:#000000;
+background:#3bc6e4;
+margin-bottom:0;
+}
+.additional-nav-menu .dropdown-menu, .submenu .dropdown-menu{
+background-color:#ffb400  !important;
+}
+.additional-nav-menu .dropdown-menu > li:hover, .submenu .dropdown-menu > li:hover{
+background:#ffb400 !important;
+}
+.additional-nav-menu:hover{
+background-color:#ffb400 !important;
+}
+#main-menu .dropdown-menu{
+background-color:#ffb400  !important;
+}
+.additional-nav-menu:hover > a{
+color:#fff;
+}
+.side-heading a:hover{
+color:black;
+}
+#visualcart{
+-webkit-filter:hue-rotate(-215deg);
+-ms-filter:hue-rotate(-215deg);
+filter:hue-rotate(-215deg);
+-o-filter:hue-rotate(-215deg);
+-moz-filter:hue-rotate(-215deg);
+-editor-filter:-215;
+}
+.theme-color{
+color:#ffb400;
+}
+#body{
+--color:#ffb400;
+}

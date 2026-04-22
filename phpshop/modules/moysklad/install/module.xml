@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.3</version>
+    <name>МойСклад</name>
+    <description>Интеграция с системой МойСклад.</description>
+    <faqlink>https://wiki.phpshop.ru/sinkhronizaciya-s-moi-sklad/sinkhronizaciya-s-moi-sklad</faqlink>
+    <sign>1702363763</sign>
+    <pro>true</pro>
+    <category>crm,pro</category>
+     <adminmenu>
+        <title>МойСклад</title>
+        <capability>true</capability>
+         <podmenu>
+             <podmenu_name>Журнал операций</podmenu_name>
+             <podmenu_action>dir.moysklad</podmenu_action>
+         </podmenu>
+    </adminmenu>
+</module>

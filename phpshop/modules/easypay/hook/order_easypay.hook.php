@@ -1,0 +1,1 @@
+<?phpfunction payment_mod_easypay_hook($obj,$value) {    // Настройки модуля    include_once(dirname(__FILE__).'/mod_option.hook.php');    $option = new PHPShopEasypayArray();	$obj->value[10002] =array($option->getParam('title'),10002,false);}$addHandler=array        (        'payment'=>'payment_mod_easypay_hook');?>

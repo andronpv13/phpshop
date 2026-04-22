@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_modules_yandexkassa_system` ADD `receipt_status`int(11) NOT NULL;

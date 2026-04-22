@@ -1,0 +1,7 @@
+
+# Запрет доступа к файлам конфигурации
+<files ~ "(adm_|admin_)"> 
+Order Deny,Allow
+Deny From All
+</files>
+

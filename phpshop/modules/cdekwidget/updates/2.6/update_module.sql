@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_delivery` ADD `cdek_paid` enum('0','1') DEFAULT '0';

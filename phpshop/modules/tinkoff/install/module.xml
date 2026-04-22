@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>2.6</version>
+    <name>Т-Банк</name>
+    <description>Прием оплат через Т-Банк.</description>
+    <category>payment</category>
+    <sign>1768549611</sign>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/tinkoff</faqlink>
+    <adminmenu>
+        <title>Прием оплат Т-Банк</title>
+        <capability>true</capability>
+         <podmenu>
+             <podmenu_name>Журнал операций</podmenu_name>
+             <podmenu_action>dir.tinkoff</podmenu_action>
+         </podmenu>
+    </adminmenu>
+</module>

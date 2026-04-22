@@ -1,0 +1,121 @@
+.branches-page .dropdown-toggle {
+    min-width: 200px;
+}
+.branches-page .dropdown-menu{
+    min-width: 200px;
+}
+.branches-page h3 {
+    margin-top: 0;
+}
+.branches-page .btn-group {
+    padding-bottom: 10px;
+}
+.branches-page .well i {
+    font-size: 23px;
+    padding-right: 8px;
+}
+.branch-address {
+    padding-bottom: 5px;
+}
+.branch-address p {
+    padding-left: 26px;
+}
+.branch-phone p {
+    padding-left: 32px;
+}
+.branch-email p {
+    padding-left: 36px;
+}
+#branches-map-container {
+    height: 400px;
+    padding: 10px 0;
+}
+#geolocationModal input {
+    width: 100%;
+    height: 45px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+#geolocationModal input:hover, #geolocationModal input:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+}
+#geolocationModal .modal-body, #geolocationModal .modal-header {
+    width: 100%;
+}
+#geolocationModal .modal-title {
+    font-size: 17px;
+}
+.geolocation-block {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.geolocation-block .city-bubble {
+    border: 1px solid #ddd;
+    border-top-color: rgb(221, 221, 221);
+    border-right-color: rgb(221, 221, 221);
+    border-bottom-color: rgb(221, 221, 221);
+    border-left-color: rgb(221, 221, 221);
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 15px;
+    background-color: #fafafa;
+    margin-bottom: 5px;
+    margin-right: 6px;
+}
+.geolocation-block .city-bubble a {
+    color: #333;
+}
+.geolocation-block .city-bubble:hover {
+    border-color: #3d2d6e;
+}
+.geolocation-block .city-bubble:hover a {
+    color: #3d2d6e!important;
+}
+.geolocation-title {
+    font-size: 24px;
+    color: gray;
+    letter-spacing: 0;
+    padding-bottom: 20px;
+}
+.geolocation-regions, .geolocation-cities {
+    min-height: 1px;
+    padding: 0;
+    float: left;
+    width: 100%;
+    overflow: auto;
+    max-height: 350px;
+}
+.geolocation-regions, .geolocation-cities {
+    border-right: 0 none;
+    border-left: 1px solid #d8d8d8;
+    display: block;
+}
+.geolocation-regions li, .geolocation-cities li {
+    padding: 2px 1em 10px 20px;
+}
+.geolocation-regions a, .geolocation-cities a {
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+.geolocation-regions a:hover, .geolocation-cities a:hover, .geolocation-active a {
+    color: #3d2d6e
+}
+.ui-front {
+    z-index: 10000!important;
+}
+.ui-menu-item .ui-state-active {
+    color: #3d2d6e!important;
+    border: none !important;
+    font-weight: normal!important;
+}

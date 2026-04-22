@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.2</version>
+    <name>CRM Битрикс24</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/crm/bitrix24</faqlink>
+    <description>Синхронизация с CRM системой Битрикс24.</description>
+    <sign>1618822466</sign>
+    <category>crm,pro</category>
+    <pro>true</pro>
+    <adminmenu>
+        <title>CRM Битрикс24</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.bitrix24</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

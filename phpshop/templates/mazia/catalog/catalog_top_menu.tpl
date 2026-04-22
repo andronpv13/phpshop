@@ -1,0 +1,1 @@
+<li class="position-static @hideSite@"><a class="" href="/shop/CID_@catalogUid@.html"><span>@catalogName@</span></a></li>

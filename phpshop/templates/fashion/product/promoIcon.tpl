@@ -1,0 +1,1 @@
+<span class="badge-light small px-1">@promoLabel@</span>

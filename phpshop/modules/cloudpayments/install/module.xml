@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.1</version>
+    <name>CloudPayments</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/cloudpayments</faqlink>
+    <description>Прием оплат через CloudPayments в соответствии с 54-ФЗ.</description>
+    <category>payment</category>
+    <sign>1545904926</sign>
+    <adminmenu>
+        <title>CloudPayments</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.cloudpayments</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

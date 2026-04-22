@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_modules_gift_forms` CHANGE `discount_tip` `discount_tip` ENUM( '0', '1', '2' );

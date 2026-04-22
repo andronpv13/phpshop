@@ -1,0 +1,1 @@
+<span class="promo-icon label">@promoLabel@</span>

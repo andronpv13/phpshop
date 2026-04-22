@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Product Similar</name>
+    <description>Модуль списка товаров с похожими характеристиками.</description>
+    <category>sale</category>
+    <faqlink>https://wiki.phpshop.ru/moduli/prodazhi/product-similar</faqlink>
+    <catalog>true</catalog>
+    <adminmenu>
+        <title>Product Similar</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

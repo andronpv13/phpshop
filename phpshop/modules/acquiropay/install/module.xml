@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>AcquiroPay</name>
+    <description>Прием оплат через AcquiroPay в соответствии с 54-ФЗ.</description>
+    <category>payment</category>
+    <adminmenu>
+        <title>AcquiroPay</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Настройка</podmenu_name>
+        </podmenu>
+    </adminmenu>
+</module>

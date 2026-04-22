@@ -1,0 +1,1 @@
+<div class="d-none d-sm-block">@catalogContent@</div>

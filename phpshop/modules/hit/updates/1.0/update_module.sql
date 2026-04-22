@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_modules_hit_system` ADD `hit_cat` INT(11) NOT NULL default 0;

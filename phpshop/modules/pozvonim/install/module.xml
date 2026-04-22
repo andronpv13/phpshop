@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.1</version>
+    <name>Pozvonim</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/chaty-i-zvonki/pozvonim</faqlink>
+    <description>Виджет удержания клиентов от Pozvonim.com.</description>
+    <category>chat</category>
+    <site>true</site>
+    <adminmenu>
+        <title>Pozvonim</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>ВТБ</name>
+    <description>Прием оплат через ВТБ в соответствии с 54-ФЗ.</description>
+    <category>payment</category>
+    <sign>1705471890</sign>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/banki/vtb</faqlink>
+     <adminmenu>
+        <title>ВТБ</title>
+        <capability>true</capability>
+         <podmenu>
+             <podmenu_name>Журнал операций</podmenu_name>
+             <podmenu_action>dir.vtb</podmenu_action>
+         </podmenu>
+    </adminmenu>
+</module>

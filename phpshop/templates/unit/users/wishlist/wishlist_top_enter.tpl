@@ -1,0 +1,1 @@
+<a href="/users/wishlist.html"> <span class="wishlistcount">@wishlistCount@</span><span class="icons icons-green icons-small icons-wishlist"></span></a>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.1</version>
+    <name>Подарок</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/prodazhi/gift</faqlink>
+    <description>Модуль подарков при покупке.</description>
+    <category>sale</category>
+    <sign>1584696082</sign>
+    <adminmenu>
+        <title>Подарок</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Обзор подарков</podmenu_name>
+            <podmenu_action>dir.gift</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Новый подарок</podmenu_name>
+            <podmenu_action>dir.gift&amp;action=new</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

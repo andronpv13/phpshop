@@ -1,0 +1,119 @@
+/*Поддержка стилей для шаблона оформления заказа под новую логику*/
+span.wait{
+    display:inline-block;
+    width:16px;
+    height:16px;
+    background:url(/phpshop/lib/templates/icon/loading.gif) center center no-repeat;
+}
+
+input.reqActiv, select.reqActiv {
+    border: 1px solid red;
+}
+
+
+/*  Checkout  */
+
+.checkout-heading {
+    background: #F8F8F8;
+    border-top: 1px solid #FFFFFF;	
+    border-bottom: 1px solid #EEEEEE;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #555555;
+    margin-bottom: 0;
+}
+.checkout-heading a {
+    float: right;
+    margin-top: 1px;
+    font-weight: normal;
+}
+.checkout-content {
+    display: block;
+    overflow: auto;
+    margin: 0;
+}
+.checkout-content h2 {
+    margin: 15px 0 10px;
+}
+.checkout-content .left {
+    float: left;
+
+}
+
+.checkout-content select#adres_id{
+width: 200px;
+}
+
+.auth-hint {
+    padding-left:20px;
+    display:block;
+    float:left;
+    margin-top:26px;
+    width:40%;
+
+}
+
+.checkout-content .right {
+    float: left;
+    padding-left: 10px;
+    width: 48%;
+}
+.checkout-content .buttons {
+    clear: both;
+}
+.checkout-product table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.checkout-product td {
+    padding: 7px;
+}
+.checkout-product thead td {
+    color: #4D4D4D;
+    font-weight: bold;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #EEEEEE;
+}
+.checkout-product thead .name, .checkout-product thead .model {
+    text-align: left;
+}
+.checkout-product thead .quantity, .checkout-product thead .price, .checkout-product thead .total {
+    text-align: right;
+}
+.checkout-product tbody td {
+    vertical-align: top;
+    border-bottom: 1px solid #EEEEEE;
+}
+.checkout-product tbody .name, .checkout-product tbody .model {
+    text-align: left;
+}
+.checkout-product tbody .quantity, .checkout-product tbody .price, .checkout-product tbody .total {
+    text-align: right;
+}
+.checkout-product tfoot td {
+    text-align: right;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.delivOneEl {
+    padding-left: 5px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    display: block;
+    vertical-align: central;
+}
+
+.delivOneEl img {
+    margin-bottom: -10px;
+}
+.paymOneEl{
+    padding-left: 5px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.paymOneEl img {
+    margin-bottom: -10px;
+}
+

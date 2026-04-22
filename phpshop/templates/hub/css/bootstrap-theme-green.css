@@ -1,0 +1,97 @@
+
+.bootstrap-theme{
+color:#606975;
+}
+.header-top,.secondary-nav{
+background-color:#222222;
+}
+#footer-field{
+background-color:#111111;
+}
+.navbar-fixed-bottom .compare-block a, .navbar-fixed-bottom .wishlist-block a,.navbar-fixed-bottom .cart-block a,.navbar-fixed-bottom .compare-block a i, .navbar-fixed-bottom .wishlist-block a i, .navbar-fixed-bottom .nav-user>ul>li>a i, .navbar-fixed-bottom .cart-block a i{
+color:#333333;
+}
+body{
+color:#333333;
+}
+.header-link-color{
+color:#bbbbbb;
+}
+.main-navbar-top > li > a,.account-dropdown li a, .account-dropdown li> span{
+color:#333333;
+}
+.main-navbar-list-catalog-wrapper > li > a,.sidebar-nav> li > a{
+color:#333333;
+}
+.main-navbar-list-catalog-hidden a,.sidebar-nav li > a,.breadcrumb li a{
+color:#333333;
+}
+.page-header{
+color:#1c1c1c;
+}
+.product-page-secondary-button .btn.btn-cart,.product-page-button .addToCartFull,.btn-main{
+background:#008000;
+}
+.compare-list-button-wrapper .addToWishList,.header-account,.product-block-button .addToWishList{
+color:#777777;
+border-color:green;
+}
+.product-page-button .addToCartFull{
+color:#ffffff;
+}
+.main-color-text{
+color:#333;
+}
+.main-navbar-top > li > a{
+color:#333;
+}
+.breadcrumb>li>a:hover{
+color:#9055A2;
+}
+#faset-filter-body .faset-filter-block-wrapper h4,.panel-default>.panel-heading > h3, .panel-success>.panel-heading > h3,.side-heading,.tabpanel-wrapper .nav-tabs>li.active>a, .tabpanel-wrapper .nav-tabs>li.active>a:focus, .tabpanel-wrapper .nav-tabs>li.active>a:hover{
+color:#1c1c1c;
+}
+.compare-list-button-wrapper .addToWishList,.header-account,.search-open-button,.product-block-button .addToWishList,.account-dropdown li a,.product-block-wrapper .product-block-button button{
+color:#777;
+}
+.compare-list-button-wrapper .addToWishList:hover,.compare-list-button-wrapper .addToNotice:hover, .product-block-wrapper .product-block-button button:hover, .product-block-button .btn.btn-cart:hover{
+color:green;
+border-color:green;
+}
+.main-navbar-top > li.active > a,.page-header a:hover,.product-cart-menu .text-right,.product-name a:hover,.product-page-raiting.rating i,.breadcrumb>li>a:hover,.main-navbar-list-catalog-wrapper > li a:hover,.nav-tabs>li>a:hover,.product-page-price,.footer-link li a:hover,.sticker-block:hover i,a.read-more:hover,a.read-more,.caption a:hover,.main-navbar-top > li:hover > a,.header-top-link:hover, .header-wishlist .link:hover,.header-returncall-wrapper > a:hover,.product-block-wrapper .product-block-name > a:hover,.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+color:green !important;
+}
+.catalog-name-list:hover,.sidebar-nav ul li:hover a,.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,#visualcart_content .text-center-button a,.cart-number,.product-page-social a:hover,#toTopHover,#toTop,.owl-dots .owl-dot.active span{
+background-color:green !important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover,.nav-tabs>li>a:hover{
+border-bottom-color:green;
+}
+.product-page-social a:hover{
+color:#fff;
+background-color:green;
+border-color:green;
+}
+.navbar-fixed-bottom .compare-block a:hover, .navbar-fixed-bottom .wishlist-block a:hover,.navbar-fixed-bottom .cart-block a:hover,.navbar-fixed-bottom .compare-block a:hover i, .navbar-fixed-bottom .wishlist-block a:hover i, .navbar-fixed-bottom .nav-user>ul>li>a:hover i, .navbar-fixed-bottom .cart-block a:hover i{
+color:green;
+}
+.navbar-fixed-bottom #numcompare1, .navbar-fixed-bottom #num1, .navbar-fixed-bottom .wishlistcount{
+background-color:green;
+}
+.additional-nav-menu .dropdown-menu a:hover{
+color:green !important;
+}
+.sidebar-nav > li.active > a, .sidebar-nav ul li:hover a, .sidebar-nav > li:hover > a{
+background-color:green;
+color:#fff;
+}
+.promo-icon{
+background:#36f543;
+}
+#body{
+--color:#008000;
+}
+.productsgroup_list .btn-primary {background-color: var(--color);border-color:var(--color)}
+.theme-color {
+    color: #008000;
+}

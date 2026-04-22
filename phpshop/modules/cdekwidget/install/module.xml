@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>2.7</version>
+    <name>CDEK Widget</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/dostavka/cdek-widget</faqlink>
+    <description>Виджет расчета доставки cdek.ru</description>
+    <category>delivery</category>
+    <sign>1771404002</sign>
+    <adminmenu>
+        <title>CDEK Widget</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.cdekwidget</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

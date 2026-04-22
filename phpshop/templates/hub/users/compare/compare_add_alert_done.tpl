@@ -1,0 +1,1 @@
+{Вы успешно добавили} <a href='@ShopDir@/shop/UID_@prodId@.html'>@prodName@</a> {в} <a href='@ShopDir@/compare/'>{сравнение}</a>

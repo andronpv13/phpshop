@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>2.1</version>
+    <name>Snow</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/dizain/snow</faqlink>
+    <description>Модуль падающего снега.</description>
+    <category>template</category>
+    <site>true</site>
+     <adminmenu>
+        <title>Снег</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

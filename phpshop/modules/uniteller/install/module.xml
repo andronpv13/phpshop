@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Uniteller</name>
+    <description>Прием оплат через Uniteller в соответствии с 54-ФЗ.</description>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/uniteller</faqlink>
+    <sign>1551185935</sign>
+    <category>payment</category>
+     <adminmenu>
+        <title>Uniteller</title>
+        <capability>true</capability>
+         <podmenu>
+             <podmenu_name>Журнал операций</podmenu_name>
+             <podmenu_action>dir.uniteller</podmenu_action>
+         </podmenu>
+    </adminmenu>
+</module>

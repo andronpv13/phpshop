@@ -1,0 +1,1 @@
+<span class="sale bg-info text-white" style="position: unset;">{Новинка}</span>

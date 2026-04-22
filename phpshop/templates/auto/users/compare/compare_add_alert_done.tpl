@@ -1,0 +1,1 @@
+{Вы успешно добавили} <a href='@ShopDir@/shop/UID_@prodId@.html' class='alert-link'>@prodName@</a> в <a href='@ShopDir@/compare/' class='alert-link'>{сравнение}</a>

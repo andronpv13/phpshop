@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_products` ADD `productservices_discount` int(11)  DEFAULT 0;

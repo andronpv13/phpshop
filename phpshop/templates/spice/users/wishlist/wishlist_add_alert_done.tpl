@@ -1,0 +1,1 @@
+{¬ы успешно добавили} <a href='@ShopDir@/shop/UID_@prodId@.html'>@prodName@</a> {в раздел} <a href='@ShopDir@/users/wishlist.html'>{отложенные}</a>

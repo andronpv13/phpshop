@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Бланки Почты России</name>
+    <description>Модуль печатных бланков Почты России</description>
+    <category>delivery</category>
+    <faqlink>https://wiki.phpshop.ru/moduli/dostavka/blanki-pochty-rossii</faqlink>
+    <adminmenu>
+        <title>Бланки Почты России</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

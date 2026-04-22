@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.9</version>
+    <name>Form Generator</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/razrabotchikam/form-generator</faqlink>
+    <description>Модуль создания форм.</description>
+    <category>develop</category>
+    <site>true</site>
+    <adminmenu>
+        <title>Генератор форм</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Обзор форм</podmenu_name>
+            <podmenu_action>dir.formgenerator</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Новая форма</podmenu_name>
+            <podmenu_action>dir.formgenerator&amp;action=new</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

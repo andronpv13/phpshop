@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_orders` ADD `cdekfulfillment_delivery_price` int(11) NOT NULL;

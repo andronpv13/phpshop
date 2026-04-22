@@ -1,0 +1,1 @@
+<span class="sale bg-red text-white" style="position: unset;">@productLabelDiscount@</span>

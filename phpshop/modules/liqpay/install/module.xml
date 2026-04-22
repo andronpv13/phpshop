@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.1</version>
+    <name>Liqpay</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/platezhnye-sistemy-agregatory/liqpay</faqlink>
+    <description>Прием оплат через Liqpay для Украины.</description>
+    <category>payment</category>
+    <adminmenu>
+        <title>Прием оплат через Liqpay</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

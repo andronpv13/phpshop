@@ -1,0 +1,1 @@
+<span class="badge-danger small px-1">@productLabelDiscount@</span>

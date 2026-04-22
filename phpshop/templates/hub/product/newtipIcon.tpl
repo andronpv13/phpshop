@@ -1,0 +1,1 @@
+<span class="new-label">NEW</span>

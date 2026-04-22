@@ -1,0 +1,1 @@
+<span class="sale-icon label">@productLabelDiscount@</span>

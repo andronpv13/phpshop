@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Idram</name>
+    <description>Прием оплат с помощью платежной системы Idram.</description>
+    <category>payment</category>
+    <sign>1611835515</sign>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/idram</faqlink>
+    <adminmenu>
+        <title>Idram</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.idram</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

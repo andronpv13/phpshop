@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>2.4</version>
+    <name>Умный поиск</name>
+    <description>Морфологический поиск с использованием облачного кеширования данных.</description>
+    <faqlink>https://wiki.phpshop.ru/moduli/razrabotchikam/umnyi-poisk</faqlink>
+    <category>develop,pro</category>
+    <pro>true</pro>
+    <pay>true</pay>
+    <sign>1770366786</sign>
+    <adminmenu>
+        <title>Умный поиск</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

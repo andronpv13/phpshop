@@ -1,0 +1,21 @@
+DirectoryIndex cml.php
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^(/1cManager/upload/(.*))
+RewriteRule .* - [F]
+
+<files *.htm>
+Order Deny,Allow
+Deny From All
+</files>
+<files *.xls>
+Order Deny,Allow
+Deny From All
+</files>
+<files *.doc>
+Order Deny,Allow
+Deny From All
+</files>
+<files *.log>
+Order Deny,Allow
+Deny From All
+</files>

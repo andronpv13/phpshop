@@ -1,0 +1,88 @@
+## PHPShop Core ##
+
+# Кодировка
+AddDefaultCharset windows-1251
+#AddDefaultCharset utf-8
+
+# Скачивание CSV браузерами
+AddType text/csv csv
+
+DirectoryIndex index.php
+RewriteEngine On
+
+# Редирект на www
+# default - off
+#RewriteCond %{HTTP_HOST} ^name\.ru
+#RewriteRule ^(.*)$ http://www.name.ru/$1 [R=301,L]
+
+# Редирект с http на https
+# default - off
+#RewriteCond %{SERVER_PORT} !^443$
+#RewriteRule ^(.*)$ https://name.ru/$1 [R=301,L]
+
+# Редирект robots.txt для витрин
+# default - off
+#RewriteCond %{HTTP_HOST} ^.*name\.ru$ [NC]
+#RewriteRule ^robots\.txt$ robost_name.txt
+
+#Options FollowSymLinks
+#Options SymLinksIfOwnerMatch
+#RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Включение проверки расширения .html
+RewriteCond %{REQUEST_URI} (((.*)\.html$)|((.*)/)|((.*)/filters/(.*)))$
+
+RewriteCond %{REQUEST_URI} !((.*)\.html(.*)\.html)$
+RewriteCond %{REQUEST_URI} !(((.*)\.(.*)/)|((.*)/filters/(.*).html)|(/(id|map|search|compare|order|done|users|gbook|page|price|news|spec|newtip)/(.*)/filters/(.*)))$
+RewriteRule ^(.*)$ index.php
+
+# Страница ошибок
+ErrorDocument 404 /404.html
+ErrorDocument 403 /404.html
+
+# Проверка обязательного / в конце
+RewriteCond %{REQUEST_URI} (map|search|compare|done|users|gbook|page|price|news|spec|newtip)$
+RewriteRule ^(.*)$ /$1/ [L,R=302]
+
+
+## PHPShop Security ##
+
+# Запрет навигации по папкам через браузер
+# default - off
+#Options -Indexes 
+
+# Запрет вызова через браузер сторонних опасных файлов шаблона
+# default - off
+#RewriteCond %{REQUEST_URI} ^(/phpshop/templates/(.*))
+#RewriteCond %{REQUEST_URI} !((.*)\.(gif|jpg|swf|png|jpeg|js|css|GIF|JPG|PNG|JPEG|eot|svg|ttf|woff|woff2|cur|webp|WEBP))$
+#RewriteRule .* - [F]
+
+# Запрет вызова через браузер сторонних опасных загружаемых файлов
+# default - off
+#RewriteCond %{REQUEST_URI} ^(/UserFiles/(.*))
+#RewriteCond %{REQUEST_URI} !((.*)\.(gif|jpg|swf|png|jpeg|js|css|GIF|JPG|PNG|JPEG|rar|zip|xml|pdf|webp|WEBP))$
+#RewriteRule .* - [F]
+
+# Запрет выполнения php в загружаемых папках
+# default - off
+#RewriteCond %{REQUEST_URI} ^((/files/price/(.*).(php\d?|phtml))|(/UserFiles/(.*).(php\d?|phtml))|(/phpshop/templates/(.*).(php\d?|phtml))|(/phpshop/admpanel/csv/(.*).(php\d?|phtml)))$
+#RewriteRule .* - [F]
+
+
+# Запрет доступа к файлам лицензии, шаблонов, конфигурации
+<files ~ "\.(lic|ini|tpl|core\.php|inc\.php|hook\.php|class\.php|sql)$"> 
+Order Deny,Allow
+Deny From All
+</files>
+
+# Запрет доступа к файлам конфигурации
+<files ~ "(adm_|admin_|tab_)"> 
+Order Deny,Allow
+Deny From All
+</files>
+
+# Запрет доступа к кэшу
+RewriteCond %{REQUEST_URI} ^(/UserFiles/Cache(.*))
+RewriteRule .* - [F]

@@ -1,0 +1,1 @@
+<a href="/users/wishlist.html"><span class="glyphicon glyphicon-bookmark"></span> {Отложенные} (<span class="wishlistcount">@wishlistCount@</span>)<span id="wishlist-total" ></span></a>

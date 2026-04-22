@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_shopusers` ADD `bitrix24_company_id` int(11) default '0';

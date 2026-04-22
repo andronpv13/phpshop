@@ -1,0 +1,1 @@
+<label class="checkbox-inline"><input type="checkbox" name="v[@sortSelectionId@][]" value="@sortSelectionValue@">@sortSelectionName@</label>

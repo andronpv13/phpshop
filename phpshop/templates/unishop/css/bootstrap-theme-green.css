@@ -1,0 +1,89 @@
+
+.bootstrap-theme{
+color:#fff;
+}
+
+.header-top,.secondary-nav {
+    background-color: #f5f5f5;
+}
+
+#footer-area {
+    background-color: #374250;
+}
+.main-color-text {
+	color: #333;
+}
+.header-link-color {
+	color: #606975;
+}
+.main-navbar-top > li > a,.account-dropdown li a, .account-dropdown li> span,.search-link {
+	color: #606975;
+}
+.main-navbar-list-catalog-wrapper > li > a,.sidebar-nav> li > a {
+	color: #9da9b9;
+}
+.main-navbar-list-catalog-hidden a,.sidebar-nav li > a,.breadcrumb li a {
+	color: #606975;
+}
+.sidebar-nav li > a:hover,.sidebar-nav li > a.active,.breadcrumb>li>a:hover {
+	color: #2ecc71;
+}
+.shop-page-main-title,.main-page-title,.main-page-title a{
+	color: #374250;
+}
+#faset-filter-body .faset-filter-block-wrapper h4,.panel-default>.panel-heading > h3, .panel-success>.panel-heading > h3,.side-heading,.tabpanel-wrapper .nav-tabs>li.active>a, .tabpanel-wrapper .nav-tabs>li.active>a:focus, .tabpanel-wrapper .nav-tabs>li.active>a:hover {
+	color: #9da9b9;
+}
+.product-page-secondary-button .btn.btn-cart,.product-page-button .addToCartFull,.btn-main {
+	background: #2ecc71;
+}
+.compare-list-button-wrapper .addToWishList,.header-account,.search-open-button,.header-bottom #cart #cartlink,.product-block-button .addToWishList {
+	color: #606975;
+}
+.product-block-button .btn.btn-cart {
+	color: #2ecc71;
+	border-color: #2ecc71;
+}
+
+.search-link:hover, .account-dropdown li a:hover,.main-navbar-top > li.active > a,.main-navbar-top > li:hover > a,.dropdown-product-item .dropdown-product-title:hover,.main-page-title a:hover,.product-col h4 a:hover, .product-col h4 a:focus,.footer-links li a:hover,.main-navbar-list-catalog-wrapper > li a:hover, .product-block-name > a:hover,.header-top-link:hover, .header-wishlist .link:hover {
+    color: #2ecc71;
+}
+.product-block-button .addToCartList:hover, .product-block-button .btn.btn-cart:hover,.product-filter .display label.active {
+	background-color: #2ecc71;
+}
+.product-filter .display label.active {
+	border-color: #2ecc71 !important;
+}
+.product-page-button .addToCartFull:hover, .product-page-secondary-button .btn.btn-cart:hover {
+	background-color: #25a25a;
+}
+
+span.hit-icon.label {
+    background-color: #19a329 !important;
+    display: inline;border-radius: 10px;float:left;
+	margin: 2px;
+
+    }
+
+
+span.promo-icon {
+	background-color: #19a329 !important;
+    display: inline;border-radius: 10px;float:left;
+	margin: 2px;
+	opacity:0.4
+    	
+
+}
+span.promo-icon p{margin-bottom:0}
+
+span.sale-icon-content{
+    position: absolute;
+    z-index: 5;
+
+}
+#body{
+--color:#2ecc71;
+}
+.theme-color {
+	color: #2ecc71;
+}

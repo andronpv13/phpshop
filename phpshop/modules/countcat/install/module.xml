@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.2</version>
+    <name>Count Cat</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/dizain/count-cat</faqlink>
+    <description>Модуль подсчета количества товаров в каталогах.</description>
+    <category>template</category>
+    <catalog>true</catalog>
+    <adminmenu>
+        <title>Count Cat</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

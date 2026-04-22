@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.3</version>
+    <name>Sitemap Pro</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/seo/sitemappro</faqlink>
+    <description>Модуль генерации карты сайта с поддержкой большого количества номенклатуры.</description>
+    <category>seo,pro</category>
+    <pro>true</pro>
+    <sign>1755262385</sign>
+    <catalog>true</catalog>
+    <adminmenu>
+        <title>Sitemap Pro</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

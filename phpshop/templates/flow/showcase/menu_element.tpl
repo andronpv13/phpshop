@@ -1,0 +1,1 @@
+ <li class="nav-item"><a href="//@ShowcaseHost@@ShowcasePath@" class="nav-link">@ShowcaseName@</a></li>

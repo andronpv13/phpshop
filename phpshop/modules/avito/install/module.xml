@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>2.8</version>
+    <name>Avito</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/prodazhi/avito</faqlink>
+    <description>Экспорт товаров на Авито.</description>
+    <category>marketplaces,pro</category>
+    <sign>1753087293</sign>
+    <pro>true</pro>
+    <adminmenu>
+        <title>Avito</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Товары из Avito</podmenu_name>
+            <podmenu_action>dir.avito.import</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Заказы из Avito</podmenu_name>
+            <podmenu_action>dir.avito.orders</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.avito</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

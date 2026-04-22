@@ -1,0 +1,1 @@
+<a href="@brandPageLink@"><img title="@brandName@" src="@brandIcon@" alt="@brandName@"> {Απενδ}: @brandName@</a>

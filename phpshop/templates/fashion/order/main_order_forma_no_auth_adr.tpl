@@ -1,0 +1,1 @@
+<a class="js-hs-unfold-invoker" href="javascript:;" data-toggle="modal" data-target="#signupModal" data-hs-unfold-invoker="">{Авторизуйтесь}</a>, {если Вы уже указывали адрес доставки, и не желаете вводить его повторно.}<br><br>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>Оптовые акции</name>
+    <faqlink>https://wiki.phpshop.ru/moduli/prodazhi/optovye-akcii</faqlink>
+    <description>Модуль оптовых акций.</description>
+    <category>sale,pro</category>
+    <sign>1666269478</sign>
+    <pro>true</pro>
+    <adminmenu>
+        <title>Оптовые акции</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Обзор оптовых акций</podmenu_name>
+            <podmenu_action>dir.wholesale</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Новая оптовая акция</podmenu_name>
+            <podmenu_action>dir.wholesale&amp;action=new</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

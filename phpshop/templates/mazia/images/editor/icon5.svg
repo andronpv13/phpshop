@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>7B77B2C7-D69A-4C92-9059-3B3C25DA0C34</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="26" height="26"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-310.000000, -562.000000)">
+            <g id="Group-8" transform="translate(310.000000, 239.000000)">
+                <g id="Group-Copy-9" transform="translate(1.000000, 324.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <rect stroke="#F0F3F5" x="-0.5" y="-0.5" width="27" height="27"></rect>
+                    <rect id="Rectangle" fill="#D8D8D8" mask="url(#mask-2)" x="8" y="8" width="11" height="11"></rect>
+                    <path d="M13.1670023,15.8582503 C13.2586207,15.9503876 13.3819532,16 13.5017619,16 C13.6215706,16 13.7449031,15.9539313 13.8365215,15.8582503 L16.8599295,12.8177187 C17.0466902,12.6299003 17.0466902,12.3286822 16.8599295,12.1408638 C16.6731689,11.9530454 16.3736471,11.9530454 16.1868865,12.1408638 L13.9774729,14.3663344 C13.8175646,14.5364695 13.6589942,14.6215371 13.5017619,14.6215371 C13.3445296,14.6215371 13.1859592,14.5364695 13.0260508,14.3663344 L10.8131135,12.1408638 C10.6263529,11.9530454 10.3268311,11.9530454 10.1400705,12.1408638 C9.95330984,12.3286822 9.95330984,12.6299003 10.1400705,12.8177187 L13.1670023,15.8582503 Z" id="Path-Copy" fill="#979797" fill-rule="nonzero" mask="url(#mask-2)" transform="translate(13.500000, 14.000000) scale(-1, 1) translate(-13.500000, -14.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

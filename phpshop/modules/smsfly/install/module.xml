@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.4</version>
+    <name>SMS Fly</name>
+    <description>SMS оповещение для Украины.</description>
+    <category>develop</category>
+    <site>true</site>
+    <adminmenu>
+        <title>SMS оповещение</title>
+        <capability>true</capability>
+    </adminmenu>
+</module>

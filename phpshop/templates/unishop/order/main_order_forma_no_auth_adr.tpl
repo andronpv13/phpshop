@@ -1,0 +1,1 @@
+<a href="#" data-toggle="modal" data-target="#userModal"><span class="glyphicon glyphicon-user"></span> {Авторизуйтесь}</a>, {если Вы уже указывали адрес доставки, и не желаете вводить его повторно.}<br><br>

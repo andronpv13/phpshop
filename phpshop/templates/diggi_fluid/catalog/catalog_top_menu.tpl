@@ -1,0 +1,1 @@
+<li class="@topMenuActive@ @hideSite@"><a href="/shop/CID_@catalogUid@.html">@catalogName@</a></li>

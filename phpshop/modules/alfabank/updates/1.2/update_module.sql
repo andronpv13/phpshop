@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_modules_alfabank_system` CHANGE `dev_mode` `dev_mode` VARCHAR(255) NOT NULL DEFAULT 'https://alfa.rbsuat.com/ab/rest/register.do';

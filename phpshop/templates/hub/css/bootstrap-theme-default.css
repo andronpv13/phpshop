@@ -1,0 +1,68 @@
+.bootstrap-theme{
+color:#606975;
+}
+.header-top,.secondary-nav{
+background-color:#222222;
+}
+#footer-field{
+background-color:#111111;
+}
+.navbar-fixed-bottom .compare-block a, .navbar-fixed-bottom .wishlist-block a,.navbar-fixed-bottom .cart-block a,.navbar-fixed-bottom .compare-block a i, .navbar-fixed-bottom .wishlist-block a i, .navbar-fixed-bottom .nav-user>ul>li>a i, .navbar-fixed-bottom .cart-block a i{
+color:#333333;
+}
+body{
+color:#333333;
+}
+.header-link-color{
+color:#bbbbbb;
+}
+.main-navbar-top > li > a,.account-dropdown li a, .account-dropdown li> span{
+color:#333333;
+}
+.main-navbar-list-catalog-wrapper > li > a,.sidebar-nav> li > a{
+color:#333333;
+}
+.main-navbar-list-catalog-hidden a,.sidebar-nav li > a,.breadcrumb li a{
+color:#555555;
+}
+.page-header{
+color:#1c1c1c;
+}
+.product-page-secondary-button .btn.btn-cart,.product-page-button .addToCartFull,.btn-main{
+background:#9055a2;
+}
+.compare-list-button-wrapper .addToWishList,.header-account,.product-block-button .addToWishList{
+color:#777777;
+}
+.product-page-button .addToCartFull{
+color:#ffffff;
+}
+.main-color-text{
+color:#333;
+}
+.main-navbar-top > li > a{
+color:#333;
+}
+.breadcrumb>li>a:hover{
+color:#9055A2;
+}
+#faset-filter-body .faset-filter-block-wrapper h4,.panel-default>.panel-heading > h3, .panel-success>.panel-heading > h3,.side-heading,.tabpanel-wrapper .nav-tabs>li.active>a, .tabpanel-wrapper .nav-tabs>li.active>a:focus, .tabpanel-wrapper .nav-tabs>li.active>a:hover{
+color:#1c1c1c;
+}
+.compare-list-button-wrapper .addToWishList,.header-account,.search-open-button,.product-block-button .addToWishList,.account-dropdown li a,.product-block-wrapper .product-block-button button{
+color:#777;
+}
+.additional-nav-menu .dropdown-menu a:hover{
+color:#9055A2;
+}
+.sidebar-nav > li.active > a, .sidebar-nav ul li:hover a, .sidebar-nav > li > a:hover{
+background-color:#9055A2;
+color:#fff;
+}
+#body{
+--color:#9055a2;
+}
+.productsgroup_list .btn-primary {background-color: var(--color);border-color:var(--color)}
+.theme-color {
+    color: #9055a2;
+}

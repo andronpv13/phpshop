@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.0</version>
+    <name>NovaPay</name>
+    <description>Прием оплат через платежную систему NovaPay для Украины.</description>
+    <category>payment</category>
+    <sign>1597934437</sign>
+    <faqlink>https://wiki.phpshop.ru/moduli/platezhnye-sistemy/novapay</faqlink>
+    <adminmenu>
+        <title>NovaPay</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.novapay</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>

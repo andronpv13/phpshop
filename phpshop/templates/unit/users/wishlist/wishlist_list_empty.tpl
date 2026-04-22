@@ -1,0 +1,1 @@
+<h4 class="empty_product_list">{У Вас нет отложенных товаров}.</h4>

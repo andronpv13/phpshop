@@ -1,0 +1,1 @@
+{Добро пожаловать}, <span class="glyphicon glyphicon-user"></span> <b>@UserName@!</b>

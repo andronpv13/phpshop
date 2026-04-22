@@ -1,0 +1,1 @@
+ALTER TABLE `phpshop_modules_wbseller_system` ADD `discount` enum('0','1') NOT NULL default '0';

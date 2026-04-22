@@ -1,0 +1,1 @@
+<span>{Артикул}</span> <span itemprop="sku">@productArt@</span> 

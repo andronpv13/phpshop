@@ -1,0 +1,8 @@
+#fileUpload {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.window-width {max-width:800px;
+}

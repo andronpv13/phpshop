@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>1.4</version>
+    <name>VK Товары</name>
+    <description>Модуль продаж через ВКонтакте.</description>
+    <category>marketplaces</category>
+    <sign>1759126574</sign>
+    <faqlink>https://wiki.phpshop.ru/moduli/marketpleisy/vk</faqlink>
+    <adminmenu>
+        <title>VK Товары</title>
+        <capability>true</capability>
+        <podmenu>
+            <podmenu_name>Товары из VK</podmenu_name>
+            <podmenu_action>dir.vkseller.import</podmenu_action>
+        </podmenu>
+         <podmenu>
+            <podmenu_name>Заказы из VK</podmenu_name>
+            <podmenu_action>dir.vkseller.order</podmenu_action>
+        </podmenu>
+         <podmenu>
+            <podmenu_name>Журнал ошибок</podmenu_name>
+            <podmenu_action>dir.vkseller.product</podmenu_action>
+        </podmenu>
+        <podmenu>
+            <podmenu_name>Журнал операций</podmenu_name>
+            <podmenu_action>dir.vkseller</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>
